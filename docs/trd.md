@@ -70,6 +70,7 @@ The file will be an array of event objects, chronologically sorted.
     "sender": "Rohan Patel",
     "senderRole": "Member",
     "message": "Hi team, I've just signed up. Excited to get started.",
+    // for below things we would need some advanced NLP let's see if we can do in TS or leave for now .
     "eventType": "Communication", // 'Communication', 'PlanUpdate', 'TestResult', 'InternalNote'
     "metadata": null
   },

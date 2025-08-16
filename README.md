@@ -8,7 +8,7 @@ We want to create something good, scalable and useful for this hackathon that go
 Through this process we would also learn and explore. 
 
 ### Communication Message Generation (Task 1)
-As the task is to simulate 8-month long converstations we face problem of *Context Window Limitation* and *Hallucination* of the LLMs. The restrictions on this conversation mentioned in the PS provide additional problems. To tackle these we break down our task into month long simulations and preserve a state along with history (summary) to take care of continuity and above problems. Our research shows that LLMs perform best in such task through a role based approach. Also we have approached this with *zero-shot prompting* technique so as to not have a similar chat generated. 
+As the task is to simulate 8-month long converstations we face problem of **Context Window Limitation** and **Hallucination** of the LLMs. The restrictions on this conversation mentioned in the PS provide additional problems. To tackle these we break down our task into month long simulations and preserve a state along with history (summary) to take care of continuity and above problems. Our research shows that LLMs perform best in such task through a role based approach. Also we have approached this with **zero-shot prompting** technique so as to not have a similar chat generated. 
 
 ## Getting Started
 Fist, Install all dependencies :
