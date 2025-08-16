@@ -251,4 +251,5 @@ export interface JourneyEvent {
   sender: string;
   senderRole: string;
   message: string;
+  _dt?: Date;
 }

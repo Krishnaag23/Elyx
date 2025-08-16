@@ -24,7 +24,7 @@ pnpm install
 Create an `.env` file from `.env.example` 
 
 ```bash
-GOOGLE_API_KEY=your_google_api_key
+GEMINI_API_KEY=your_google_api_key
 ```
 
 Then, run the development server:

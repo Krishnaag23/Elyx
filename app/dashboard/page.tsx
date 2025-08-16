@@ -1,7 +1,6 @@
-// app/episodes/page.tsx
 import { promises as fs } from 'fs';
 import path from 'path';
-import { JourneyAnalysis, JourneyEpisode } from '@/lib/types';
+import { JourneyEpisode } from '@/lib/types';
 import { EpisodeCard } from '../components/episodeCard';
 
 export default async function EpisodesPage() {

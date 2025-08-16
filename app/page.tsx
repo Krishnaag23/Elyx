@@ -1,6 +1,6 @@
 import { promises as fs } from "fs";
 import path from "path";
-import { JourneyAnalysis } from "@/lib/types";
+import { CompleteHealthJourneyAnalysis} from "@/lib/types";
 import {
   Card,
   CardContent,
@@ -9,7 +9,6 @@ import {
 } from "@/components/ui/card";
 import { CheckCircle, ArrowDown, Users, BarChart } from "lucide-react";
 
-// A simple, reusable stat card component
 function StatCard({
   title,
   value,
@@ -39,7 +38,7 @@ function StatCard({
 export default async function OverviewPage() {
   const filePath = path.join(process.cwd(), "public/episode.json");
   const jsonData = await fs.readFile(filePath, "utf-8");
-  const analysis: JourneyAnalysis = JSON.parse(jsonData);
+  const analysis: CompleteHealthJourneyAnalysis = JSON.parse(jsonData);
 
   const { outcome_metrics, communication_patterns } = analysis;
 
@@ -62,7 +61,7 @@ export default async function OverviewPage() {
         />
         <StatCard
           title="Blood Pressure"
-          value={outcome_metrics.biomarker_improvements.blood_pressure.current}
+          value={outcome_metrics.biomarker_improvements.blood_pressure.current || ""}
           description={`From ${outcome_metrics.biomarker_improvements.blood_pressure.baseline}`}
           icon={CheckCircle}
         />
