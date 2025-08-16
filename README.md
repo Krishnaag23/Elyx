@@ -1,7 +1,12 @@
 # Elyx Hackathon (Sloth)
+![Landing Page](./docs/Images/Landing%20Page.png)
 This repository is our submission for the Pclub IITK X Elyx Hackathon. Here is the [problem statement](docs/Elyx%20Life%20-%20Hackathon%20Problem%20Statement%20.pdf). 
 
 This readme is WIP and would reflect our various approaches that we take and the thought that goes behind those approaches and specifics.
+
+![Dashboard](./docs/Images/Dashboard.png)
+![Dark Theme](./docs/Images/Dark_theme_Chat.png)
+![RAG](./docs/Images/Rag_Thinking.png)
 
 ## Our Goal From this Hackathon
 We want to create something good, scalable and useful for this hackathon that goes a little bit beyond just the PS.
@@ -15,6 +20,11 @@ Fist, Install all dependencies :
 
 ```bash
 pnpm install
+```
+Create an `.env` file from `.env.example` 
+
+```bash
+GOOGLE_API_KEY=your_google_api_key
 ```
 
 Then, run the development server:
