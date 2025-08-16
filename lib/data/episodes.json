@@ -1,0 +1,60 @@
+[
+  {
+    "id": "episode-1",
+    "title": "Initial Health Inquiry & Onboarding",
+    "dateRange": "April 25-28, 2025",
+    "primaryGoal": "Rohan expresses concern about his high intensity minutes on his Garmin watch, which he believes is due to his POTS/long COVID.",
+    "triggeredBy": ["Member"],
+    "frictionPoints": [],
+    "finalOutcome": "Information Provided & Plan Proposed. The Elyx team acknowledged the member's concerns, asked clarifying questions, and informed him that a doctor would review his case. They then sent a post-onboarding plan, suggesting a 'Lifestyle Consultation with Dr Advik' as the first step.",
+    "personaAnalysis": {
+      "before": "Proactive and data-driven about his health, but feeling that his current health management is 'very random and uncoordinated.'",
+      "after": "Engaged with the Elyx service, has shared initial health data and concerns, and is awaiting the proposed lifestyle consultation."
+    },
+    "metrics": [
+      { "label": "Response Time", "value": "25 minutes" },
+      { "label": "Time to Resolution", "value": "3 days" }
+    ]
+  },
+  {
+    "id": "episode-2",
+    "title": "Clarification, Data Gathering & Initial Workout Plan",
+    "dateRange": "May 3-12, 2025",
+    "primaryGoal": "Follow-up on the high-intensity minutes and initiation of data gathering and workout planning.",
+    "triggeredBy": ["Member", "Elyx Concierge"],
+    "frictionPoints": [
+      "Communication: Rohan has to ask who is messaging him from the concierge number.",
+      "Data Access: Elyx needs to request access to past medical records from cardiologists.",
+      "Workout Plan Accessibility: The member found the initial workout plan difficult to access due to a password requirement."
+    ],
+    "finalOutcome": "Information Provided & Plan in Motion. Dr. Advik acknowledged the high-intensity minutes and stated the medical team would investigate further. Elyx has started the process of collecting medical records and has provided an initial hotel gym workout plan.",
+    "personaAnalysis": {
+      "before": "Engaged with the Elyx service, has shared initial health data and concerns, and is awaiting the proposed lifestyle consultation.",
+      "after": "Becoming more actively involved in the process, but also starting to experience some friction with the service's execution (communication, accessibility)."
+    },
+    "metrics": [
+      { "label": "Response Time", "value": "3 hours 2 minutes" },
+      { "label": "Time to Resolution", "value": "9 days" }
+    ]
+  },
+  {
+    "id": "episode-3",
+    "title": "Member Dissatisfaction & Service Feedback",
+    "dateRange": "May 13-14, 2025",
+    "primaryGoal": "Rohan expresses significant dissatisfaction with the perceived lack of progress and proactivity from Elyx.",
+    "triggeredBy": ["Member"],
+    "frictionPoints": [
+      "Perceived Inaction: The member feels that after a month, Elyx has not made any tangible impact on his diet, supplements, sleep, or exercise patterns, and the service feels 'very very sluggish.'",
+      "Lack of Proactivity: The member points out that Elyx should be able to track his activity levels and know if he's been to the gym."
+    ],
+    "finalOutcome": "Acknowledgment & Promise to Improve. The Elyx team, primarily Neel, acknowledges the member's feedback, explains that a lot of work is happening in the background, and promises to consolidate everything to provide a clearer picture of the plan and priorities.",
+    "personaAnalysis": {
+      "before": "Becoming more actively involved in the process, but also starting to experience some friction.",
+      "after": "Frustrated and questioning the value of the service. He is now taking on a more directive role, providing feedback on how the service should operate."
+    },
+    "metrics": [
+      { "label": "Response Time", "value": "1 day, 13 hours" },
+      { "label": "Time to Resolution", "value": "1 day, 1 hour" }
+    ]
+  }
+]

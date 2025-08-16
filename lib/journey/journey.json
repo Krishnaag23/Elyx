@@ -1,0 +1,1283 @@
+[
+  {
+    "eventId": "evt-000",
+    "timeStamp": "2026-01-02T03:45:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Hi, I was referred to Elyx and have just completed the sign-up. I've been tracking my blood pressure at home and it's consistently in the 135/85 range, sometimes higher. Also feeling more tired than usual. Is this the right place to start?"
+  },
+  {
+    "eventId": "evt-001",
+    "timeStamp": "2026-01-02T03:48:00.000Z",
+    "sender": "Ruby",
+    "senderRole": "Concierge",
+    "message": "Good morning, Rohan, and welcome to Elyx! Ruby here. Absolutely, you're in the right place. My role is to be your primary point of contact and make this entire process seamless for you. I'll be coordinating everything behind the scenes."
+  },
+  {
+    "eventId": "evt-002",
+    "timeStamp": "2026-01-02T03:49:00.000Z",
+    "sender": "Ruby",
+    "senderRole": "Concierge",
+    "message": "The first step is to get you acquainted with your core team. I'll schedule a brief 15-minute introductory video call with Dr. Warren, our medical strategist, to discuss your health history and goals. How does tomorrow afternoon look for you?"
+  },
+  {
+    "eventId": "evt-003",
+    "timeStamp": "2026-01-02T08:00:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Tomorrow at 4 PM Singapore time works."
+  },
+  {
+    "eventId": "evt-004",
+    "timeStamp": "2026-01-02T08:01:00.000Z",
+    "sender": "Ruby",
+    "senderRole": "Concierge",
+    "message": "Perfect. Calendar invite sent. You'll be meeting other members of your team over the next week."
+  },
+  {
+    "eventId": "evt-005",
+    "timeStamp": "2026-01-04T05:32:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "I was doing some reading about the DASH diet for hypertension. Should I start that now?"
+  },
+  {
+    "eventId": "evt-006",
+    "timeStamp": "2026-01-04T05:40:00.000Z",
+    "sender": "Carla",
+    "senderRole": "Nutritionist",
+    "message": "Hi Rohan, Carla here, your nutritionist. That's a great and proactive question. The DASH diet has strong evidence behind it. Before we jump into a specific protocol, would you be open to logging what you currently eat for the next 3 days? You can use any app you like, or even just a note. It gives me a much better baseline to work from."
+  },
+  {
+    "eventId": "evt-007",
+    "timeStamp": "2026-01-05T02:50:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Logging food is a bit tedious. I travel a lot and my meals are inconsistent. To be honest, I only have about 5 hours a week total to dedicate to all of this. Is there a simpler way?"
+  },
+  {
+    "eventId": "evt-008",
+    "timeStamp": "2026-01-05T02:55:00.000Z",
+    "sender": "Carla",
+    "senderRole": "Nutritionist",
+    "message": "Completely understand, Rohan. That's valuable feedback. Let's pivot. How about this for the next 3 days, just take a quick photo of your main meals and send them here. No logging needed. It's a 10-second task and still gives me the insight I need."
+  },
+  {
+    "eventId": "evt-009",
+    "timeStamp": "2026-01-05T05:17:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Okay, photos I can do. I'll start today."
+  },
+  {
+    "eventId": "evt-010",
+    "timeStamp": "2026-01-08T03:30:00.000Z",
+    "sender": "Rachel",
+    "senderRole": "PT / Physiotherapist",
+    "message": "Good morning Rohan, Rachel here. I manage everything related to physical movement. To start, I've sent a link to a simple 10-minute functional movement screen you can do at home. It helps me understand your baseline mobility and stability."
+  },
+  {
+    "eventId": "evt-011",
+    "timeStamp": "2026-01-08T07:45:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "10 minutes is fine, but what's the goal here? I already have a 20-min routine I do most mornings."
+  },
+  {
+    "eventId": "evt-012",
+    "timeStamp": "2026-01-08T07:50:00.000Z",
+    "sender": "Rachel",
+    "senderRole": "PT / Physiotherapist",
+    "message": "That's great that you're already active. This isn't a workout, it's an assessment. It'll help me see if there are any underlying movement patterns we can improve to make your current routine more effective and prevent injury. It's a \"measure twice, cut once\" approach to ensure what we prescribe is perfectly tailored to you."
+  },
+  {
+    "eventId": "evt-013",
+    "timeStamp": "2026-01-09T09:30:00.000Z",
+    "sender": "Ruby",
+    "senderRole": "Concierge",
+    "message": "Hi Rohan, following up on Dr. Warren's note. I'm starting to coordinate your full diagnostic panel. As he mentioned, it's quite comprehensive, so we'll spread the tests out over the next couple of months, with the full review scheduled for the end of March. I've found an opening for the initial blood draw and a DEXA scan next week. Does the 17th in the morning work?"
+  },
+  {
+    "eventId": "evt-014",
+    "timeStamp": "2026-01-09T11:40:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "The 17th is tough. Let's push any in-person tests to February if possible. My January is packed."
+  },
+  {
+    "eventId": "evt-015",
+    "timeStamp": "2026-01-09T11:42:00.000Z",
+    "sender": "Ruby",
+    "senderRole": "Concierge",
+    "message": "No problem at all. We work around your schedule. I'll look for openings in the first week of February."
+  },
+  {
+    "eventId": "evt-016",
+    "timeStamp": "2026-01-11T04:30:00.000Z",
+    "sender": "Advik",
+    "senderRole": "Performance Scientist",
+    "message": "Rohan, Advik here. I focus on wearable data, sleep, and recovery. I see from your file you use a Garmin watch. Would you be able to grant us access to your Garmin Connect data? I'm particularly interested in your sleep quality and Heart Rate Variability (HRV) trends, as they can often be linked to fatigue and blood pressure."
+  },
+  {
+    "eventId": "evt-017",
+    "timeStamp": "2026-01-11T04:32:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Sure, access granted. Let me know what you find."
+  },
+  {
+    "eventId": "evt-018",
+    "timeStamp": "2026-01-15T04:00:00.000Z",
+    "sender": "Advik",
+    "senderRole": "Performance Scientist",
+    "message": "[attached Weekly_Garmin_Summary.png] Quick check-in on your data, Rohan. Your average resting heart rate is stable, which is good. However, I'm seeing consistently low deep sleep duration, averaging around 45 minutes a night. This could be a key contributor to your fatigue. As a simple first step, let's try for a consistent bedtime this week, even a 15-minute window can make a difference."
+  },
+  {
+    "eventId": "evt-019",
+    "timeStamp": "2026-01-16T09:10:00.000Z",
+    "sender": "Rachel",
+    "senderRole": "PT / Physiotherapist",
+    "message": "Thanks for completing the movement screen, Rohan. The results were very helpful. Based on that, I've put together an updated 20-minute morning routine. I kept the duration the same but swapped a few exercises to focus more on hip mobility and core stability, which will better support your runs. Let me know how it feels. [attached Rohan_Exercise_Plan_v1.pdf]"
+  },
+  {
+    "eventId": "evt-020",
+    "timeStamp": "2026-01-18T10:33:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Team, a heads-up. I'll be in London for the entire second week of February for business. That's the 12th to the 16th. We'll need to figure out how I can manage the plan while I'm there."
+  },
+  {
+    "eventId": "evt-021",
+    "timeStamp": "2026-01-18T10:35:00.000Z",
+    "sender": "Ruby",
+    "senderRole": "Concierge",
+    "message": "Thanks for the notice, Rohan. I've marked it in the calendar. I will also hold off on booking any tests for that week."
+  },
+  {
+    "eventId": "evt-022",
+    "timeStamp": "2026-01-18T10:36:00.000Z",
+    "sender": "Ruby",
+    "senderRole": "Concierge",
+    "message": "@Rachel and @Carla, can you please start thinking about a travel-friendly version of his plan for that week?"
+  },
+  {
+    "eventId": "evt-023",
+    "timeStamp": "2026-01-18T11:00:00.000Z",
+    "sender": "Rachel",
+    "senderRole": "PT / Physiotherapist",
+    "message": "Noted. I'll prepare a hotel gym and a bodyweight-only version of your routine, Rohan."
+  },
+  {
+    "eventId": "evt-024",
+    "timeStamp": "2026-01-22T02:25:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "I saw an article on magnesium supplements improving sleep. Should I be taking one?"
+  },
+  {
+    "eventId": "evt-025",
+    "timeStamp": "2026-01-22T03:00:00.000Z",
+    "sender": "Carla",
+    "senderRole": "Nutritionist",
+    "message": "That's another great question. Magnesium can indeed be beneficial for sleep and even muscle function. However, my preference is to not add any new supplements until after we get your first blood panel results back. We don't want to mask any underlying deficiencies. We'll have that data soon and can make a much more informed decision."
+  },
+  {
+    "eventId": "evt-026",
+    "timeStamp": "2026-01-24T05:45:00.000Z",
+    "sender": "Ruby",
+    "senderRole": "Concierge",
+    "message": "Hi Rohan, circling back on the diagnostics. I've found an excellent slot that bundles the blood draw and DEXA scan on the morning of Feb 2nd. It's at a clinic near your office. Does that work better?"
+  },
+  {
+    "eventId": "evt-027",
+    "timeStamp": "2026-01-24T07:50:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Yes, Feb 2nd works. Please book it."
+  },
+  {
+    "eventId": "evt-028",
+    "timeStamp": "2026-01-24T07:51:00.000Z",
+    "sender": "Ruby",
+    "senderRole": "Concierge",
+    "message": "Confirmed. I've just sent you a calendar invite with all the details, including location, prep, and fasting instructions."
+  },
+  {
+    "eventId": "evt-029",
+    "timeStamp": "2026-01-29T09:30:00.000Z",
+    "sender": "Rachel",
+    "senderRole": "PT / Physiotherapist",
+    "message": "Hi Rohan, just checking in. Two weeks since the first plan. I'm sending over v2 with a few progressions to keep things challenging. How did the first version feel? [attached Rohan_Exercise_Plan_v2.pdf]"
+  },
+  {
+    "eventId": "evt-030",
+    "timeStamp": "2026-01-29T10:45:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "It felt good. The hip mobility work was surprisingly tough. I probably only got to it 3-4 times a week, not daily."
+  },
+  {
+    "eventId": "evt-031",
+    "timeStamp": "2026-01-29T10:47:00.000Z",
+    "sender": "Rachel",
+    "senderRole": "PT / Physiotherapist",
+    "message": "That's completely fine and great progress. Consistency over perfection is the goal. Keep it up!"
+  },
+  {
+    "eventId": "evt-032",
+    "timeStamp": "2026-01-30T08:30:00.000Z",
+    "sender": "Neel",
+    "senderRole": "Concierge Lead",
+    "message": "Hi Rohan, Neel here. I'm the lead for the concierge team. I wanted to check in personally at the end of your first month. How are you finding the process so far? Our primary goal is to make this as seamless and valuable as possible, so any and all feedback is welcome."
+  },
+  {
+    "eventId": "evt-033",
+    "timeStamp": "2026-01-30T11:38:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Hi Neel. It's a lot of information, but I appreciate the data-driven approach. The key for me will be seeing how this translates into tangible results without overwhelming my schedule. The team has been responsive."
+  },
+  {
+    "eventId": "evt-034",
+    "timeStamp": "2026-01-30T11:45:00.000Z",
+    "sender": "Neel",
+    "senderRole": "Concierge Lead",
+    "message": "That's excellent to hear. And your feedback on schedule and tangible results is exactly what we focus on. We're here to filter the noise and just give you the most effective actions. Looking forward to the journey ahead."
+  },
+  {
+    "eventId": "evt-035",
+    "timeStamp": "2026-02-02T03:15:00.000Z",
+    "sender": "Ruby",
+    "senderRole": "Concierge",
+    "message": "Good morning, Rohan. Just a friendly reminder about your blood draw and DEXA scan appointment this morning. Please remember to fast as per the instructions."
+  },
+  {
+    "eventId": "evt-036",
+    "timeStamp": "2026-02-02T06:00:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "All done. The clinic was very efficient. When can I expect to see some results?"
+  },
+  {
+    "eventId": "evt-037",
+    "timeStamp": "2026-02-05T03:45:00.000Z",
+    "sender": "Advik",
+    "senderRole": "Performance Scientist",
+    "message": "[attached Weekly_Sleep_Report.png] Morning Rohan. Weekly check-in on your Garmin data. Your focus on a consistent bedtime last week paid off - we saw an 18% increase in your average deep sleep. That's a great initial result. Let's see if we can maintain it."
+  },
+  {
+    "eventId": "evt-038",
+    "timeStamp": "2026-02-05T04:50:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "That's interesting. I did feel slightly more rested."
+  },
+  {
+    "eventId": "evt-039",
+    "timeStamp": "2026-02-08T08:30:00.000Z",
+    "sender": "Rachel",
+    "senderRole": "PT / Physiotherapist",
+    "message": "Hi Rohan, ahead of your trip to London next week, here are two workout options. One uses typical hotel gym equipment, and the other is a bodyweight-only routine you can do in your room. The goal is to maintain consistency, not to set personal records. Even 15 minutes is a win. [attached Rohan_Travel_Plan_Feb.pdf]"
+  },
+  {
+    "eventId": "evt-040",
+    "timeStamp": "2026-02-08T08:40:00.000Z",
+    "sender": "Carla",
+    "senderRole": "Nutritionist",
+    "message": "And from my side, Rohan - my main advice for your travel is to focus on two things hydration on the flight, and prioritizing a source of protein with every meal. It's the simplest way to manage energy and satiety when you're eating out. Don't stress about tracking photos while you're there."
+  },
+  {
+    "eventId": "evt-041",
+    "timeStamp": "2026-02-09T03:10:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Thanks both, this is very helpful. I'll do my best."
+  },
+  {
+    "eventId": "evt-042",
+    "timeStamp": "2026-02-12T11:00:00.000Z",
+    "sender": "Rachel",
+    "senderRole": "PT / Physiotherapist",
+    "message": "Hi Rohan, just a quick check-in. As it's been two weeks since your last update, I've prepared the next version of your home exercise plan. No need to look at it until you're back from your trip, just wanted to send it over. [attached Rohan_Exercise_Plan_v3.pdf]"
+  },
+  {
+    "eventId": "evt-043",
+    "timeStamp": "2026-02-14T12:45:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Hey team. London is hectic. Lots of dinners and late nights. I managed the bodyweight routine once so far. Diet is mostly out of my control."
+  },
+  {
+    "eventId": "evt-044",
+    "timeStamp": "2026-02-14T13:00:00.000Z",
+    "sender": "Neel",
+    "senderRole": "Concierge Lead",
+    "message": "Hi Rohan, thanks for the update. That's completely normal during business travel. The goal is not perfection. Just focus on making the best choice available in the moment and don't worry about the rest. We'll get you back on track when you're home."
+  },
+  {
+    "eventId": "evt-045",
+    "timeStamp": "2026-02-19T04:30:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Back in Singapore. Feeling the jet lag. Probably won't get to a workout today."
+  },
+  {
+    "eventId": "evt-046",
+    "timeStamp": "2026-02-19T04:35:00.000Z",
+    "sender": "Advik",
+    "senderRole": "Performance Scientist",
+    "message": "Welcome back, Rohan. That's a smart call. Your Garmin data shows a significant disruption in your sleep cycle. The best thing you can do today is prioritize getting some sunlight this morning and stick to your normal Singapore bedtime, even if you feel tired earlier. It will help your circadian rhythm reset faster."
+  },
+  {
+    "eventId": "evt-047",
+    "timeStamp": "2026-02-21T06:15:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "ApoB... I've read Peter Attia's work on that. That number is concerning. Is my current exercise routine aggressive enough to move that number? I was reading about the importance of Zone 2 cardio."
+  },
+  {
+    "eventId": "evt-048",
+    "timeStamp": "2026-02-21T06:25:00.000Z",
+    "sender": "Rachel",
+    "senderRole": "PT / Physiotherapist",
+    "message": "That's a very informed question, Rohan. Yes, Zone 2 cardio is excellent for mitochondrial health and can positively impact cardiovascular markers. Your current routine is foundational. Now that we have this ApoB data, we can start layering in more specific cardio protocols. We'll introduce that in your next plan update."
+  },
+  {
+    "eventId": "evt-049",
+    "timeStamp": "2026-02-23T09:45:00.000Z",
+    "sender": "Ruby",
+    "senderRole": "Concierge",
+    "message": "Hi Rohan, hope you're settling back in well. To keep us on track for the end-of-March review, I need to schedule your VO2 max test and a Carotid Intima-Media Thickness (CIMT) scan. These give us crucial data on your cardiovascular fitness and arterial health. I have an opening for both on March 5th. How does that look?"
+  },
+  {
+    "eventId": "evt-050",
+    "timeStamp": "2026-02-23T12:20:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "March 5th is fine. Book it."
+  },
+  {
+    "eventId": "evt-051",
+    "timeStamp": "2026-02-23T12:21:00.000Z",
+    "sender": "Ruby",
+    "senderRole": "Concierge",
+    "message": "Done. Invite with all instructions is on its way."
+  },
+  {
+    "eventId": "evt-052",
+    "timeStamp": "2026-02-26T07:30:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "I've only managed one workout since I got back from my trip. This week has been intense catching up on work. The 5 hours a week is feeling like a real ceiling."
+  },
+  {
+    "eventId": "evt-053",
+    "timeStamp": "2026-02-26T07:40:00.000Z",
+    "sender": "Rachel",
+    "senderRole": "PT / Physiotherapist",
+    "message": "Thanks for being transparent about that, Rohan. Let's adapt. For the rest of this week, let's forget the full 20-minute routine. Let's just aim for the 10-minute mobility warm-up each day. It's a lower barrier, keeps the habit alive, and will help with the stiffness from travel. How does that sound?"
+  },
+  {
+    "eventId": "evt-054",
+    "timeStamp": "2026-02-26T10:52:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Yes, that's more manageable. I can do that."
+  },
+  {
+    "eventId": "evt-055",
+    "timeStamp": "2026-02-28T05:30:00.000Z",
+    "sender": "Carla",
+    "senderRole": "Nutritionist",
+    "message": "Hi Rohan, just a quick check-in. Now that you're back home, could you resume sending photos of your meals when you can? I'd like to see how we can support the goal of lowering that ApoB number through nutrition. No pressure, just when it's convenient."
+  },
+  {
+    "eventId": "evt-056",
+    "timeStamp": "2026-03-01T03:35:00.000Z",
+    "sender": "Rachel",
+    "senderRole": "PT / Physiotherapist",
+    "message": "Hi Rohan, hope you had a good weekend. Following up on our chat about Zone 2 cardio and your ApoB results, I've integrated it into your new plan. The goal is to start with one 30-minute session per week (e.g., brisk walk on an incline, light jog) where you can still hold a conversation. We are also progressing your strength work. Let me know if you have any questions. [attached Rohan_Exercise_Plan_v4_Cardio.pdf]"
+  },
+  {
+    "eventId": "evt-057",
+    "timeStamp": "2026-03-01T05:52:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Thanks, Rachel. A 30-minute session plus getting ready and showering adds up. This will be tight with the other workouts. I'll try to fit it in this week."
+  },
+  {
+    "eventId": "evt-058",
+    "timeStamp": "2026-03-04T08:40:00.000Z",
+    "sender": "Ruby",
+    "senderRole": "Concierge",
+    "message": "Hi Rohan, a quick reminder about your VO2 max test and CIMT scan tomorrow morning. Instructions are in the calendar invite. Let me know if you need anything."
+  },
+  {
+    "eventId": "evt-059",
+    "timeStamp": "2026-03-05T08:00:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Tests are done. The VO2 max test was tougher than I expected. What's considered a good score?"
+  },
+  {
+    "eventId": "evt-060",
+    "timeStamp": "2026-03-05T08:15:00.000Z",
+    "sender": "Advik",
+    "senderRole": "Performance Scientist",
+    "message": "Hi Rohan, Advik here. That test is designed to be tough! The lab will send us the official report, but generally, scores are benchmarked against your age and gender. We're looking for your percentile rank. A score in the top 25% is considered very good. It's one of the strongest predictors of longevity, so it's a great metric for us to track over time."
+  },
+  {
+    "eventId": "evt-061",
+    "timeStamp": "2026-03-08T03:50:00.000Z",
+    "sender": "Advik",
+    "senderRole": "Performance Scientist",
+    "message": "[attached Weekly_HRV_Trend.png] Morning Rohan. Weekly data check-in. Your average HRV has been trending slightly down this week. This isn't uncommon when introducing a new training stimulus like Zone 2. Your body is adapting. Let's keep an eye on it and ensure you're prioritizing recovery."
+  },
+  {
+    "eventId": "evt-062",
+    "timeStamp": "2026-03-11T02:45:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "I wasn't able to get the Zone 2 session in last week. Between the strength work and a couple of runs, I hit my 5-hour limit. I don't see how I can add another 30-45 minutes consistently."
+  },
+  {
+    "eventId": "evt-063",
+    "timeStamp": "2026-03-11T03:00:00.000Z",
+    "sender": "Rachel",
+    "senderRole": "PT / Physiotherapist",
+    "message": "I appreciate the feedback, Rohan. This is exactly the kind of logistical challenge we need to solve. Let's adapt. How about this we replace one of your current 20-min morning routines with the 30-min Zone 2 session. So you're not adding time, you're reallocating it. We can ensure you still hit all major muscle groups over the week."
+  },
+  {
+    "eventId": "evt-064",
+    "timeStamp": "2026-03-11T06:34:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Okay, swapping a session works. I can manage that. Let's try it."
+  },
+  {
+    "eventId": "evt-065",
+    "timeStamp": "2026-03-16T04:40:00.000Z",
+    "sender": "Ruby",
+    "senderRole": "Concierge",
+    "message": "Hi Rohan, following Dr. Warren's message, the next step is to schedule your first Quarterly Health Review. This will be a 30-minute video call with you, Neel, and Dr. Warren to discuss all the findings and co-create your strategic plan for the next three months. I have an opening on March 29th at 3 PM SGT. Would that work?"
+  },
+  {
+    "eventId": "evt-066",
+    "timeStamp": "2026-03-16T08:50:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Yes, the 29th at 3 PM is good."
+  },
+  {
+    "eventId": "evt-067",
+    "timeStamp": "2026-03-16T08:51:00.000Z",
+    "sender": "Ruby",
+    "senderRole": "Concierge",
+    "message": "Excellent. Invite sent."
+  },
+  {
+    "eventId": "evt-068",
+    "timeStamp": "2026-03-19T09:30:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Quick heads-up for the team, I have a business trip to Jakarta planned for the third week of April."
+  },
+  {
+    "eventId": "evt-069",
+    "timeStamp": "2026-03-19T09:31:00.000Z",
+    "sender": "Ruby",
+    "senderRole": "Concierge",
+    "message": "Thanks, Rohan. I've logged it and will coordinate with the team to prepare a travel plan for you closer to the date."
+  },
+  {
+    "eventId": "evt-070",
+    "timeStamp": "2026-03-22T06:00:00.000Z",
+    "sender": "Carla",
+    "senderRole": "Nutritionist",
+    "message": "Hi Rohan, I've been reviewing your food photos in light of the full lab results. Your omega-3 index was a bit low. This is a simple but powerful lever we can pull for both cardiovascular and cognitive health. I'll be recommending a specific fish oil supplement in your plan review next week."
+  },
+  {
+    "eventId": "evt-071",
+    "timeStamp": "2026-03-25T03:20:00.000Z",
+    "sender": "Rachel",
+    "senderRole": "PT / Physiotherapist",
+    "message": "Hi Rohan, just sending over your updated plan for the next two weeks. It reflects the \"swap\" approach we discussed, with one dedicated Zone 2 day and slightly adjusted strength sessions. [attached Rohan_Exercise_Plan_v5_Swap.pdf]"
+  },
+  {
+    "eventId": "evt-072",
+    "timeStamp": "2026-03-29T10:35:00.000Z",
+    "sender": "Neel",
+    "senderRole": "Concierge Lead",
+    "message": "Rohan, thank you for your time on the call today. It was a very productive session."
+  },
+  {
+    "eventId": "evt-073",
+    "timeStamp": "2026-03-29T11:45:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Thanks, team. The comprehensive overview was very clear and helpful. I'm on board with the plan for Q2."
+  },
+  {
+    "eventId": "evt-074",
+    "timeStamp": "2026-04-01T02:30:00.000Z",
+    "sender": "Carla",
+    "senderRole": "Nutritionist",
+    "message": "Rohan, just wanted to check in on your progress with the Omega-3 supplement. Are you remembering to take it daily?"
+  },
+  {
+    "eventId": "evt-075",
+    "timeStamp": "2026-04-01T02:45:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Yes, I have."
+  },
+  {
+    "eventId": "evt-076",
+    "timeStamp": "2026-04-02T03:00:00.000Z",
+    "sender": "Advik",
+    "senderRole": "Performance Scientist",
+    "message": "[attached Weekly_Sleep_Report.png] Good morning Rohan. Your sleep quality has been consistently good. Average deep sleep increased even more last week. That consistency is a key positive. Let’s keep it up!"
+  },
+  {
+    "eventId": "evt-077",
+    "timeStamp": "2026-04-03T04:00:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "I've been reading more about blood pressure and the benefits of meditation. Is that something Elyx offers guidance on?"
+  },
+  {
+    "eventId": "evt-078",
+    "timeStamp": "2026-04-03T04:15:00.000Z",
+    "sender": "Neel",
+    "senderRole": "Concierge Lead",
+    "message": "Hi Rohan, Neel here. Great question. Yes, we do provide guidance. The team has a range of resources, including guided meditations and mindfulness exercises. We can connect you with a provider who specializes in stress management. They can help you integrate these practices into your routine. I can book a short call for you, would you be interested?"
+  },
+  {
+    "eventId": "evt-079",
+    "timeStamp": "2026-04-03T04:30:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Yes, please book the call."
+  },
+  {
+    "eventId": "evt-080",
+    "timeStamp": "2026-04-05T09:15:00.000Z",
+    "sender": "Rachel",
+    "senderRole": "PT / Physiotherapist",
+    "message": "Hi Rohan, hope you're having a good week. I've prepared an updated exercise plan. We are now progressing the strength training. [attached Rohan_Exercise_Plan_v6_Progression.pdf]"
+  },
+  {
+    "eventId": "evt-081",
+    "timeStamp": "2026-04-05T09:17:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Thanks Rachel, I'll take a look at it."
+  },
+  {
+    "eventId": "evt-082",
+    "timeStamp": "2026-04-08T03:30:00.000Z",
+    "sender": "Ruby",
+    "senderRole": "Concierge",
+    "message": "Hi Rohan, Ruby here. As a reminder, you will be travelling the week of April 15th, so just a friendly check-in to ensure your plan fits with travel."
+  },
+  {
+    "eventId": "evt-083",
+    "timeStamp": "2026-04-08T03:35:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Thanks, Ruby. Yes, I am planning to follow the exercise plan and eat healthily. Not sure how much I will be able to do but I will try my best."
+  },
+  {
+    "eventId": "evt-084",
+    "timeStamp": "2026-04-08T03:37:00.000Z",
+    "sender": "Ruby",
+    "senderRole": "Concierge",
+    "message": "Great. If there is anything the concierge team can help with ahead of your trip please let us know!"
+  },
+  {
+    "eventId": "evt-085",
+    "timeStamp": "2026-04-11T09:45:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Having some trouble finding the time to workout lately. Feeling a bit stressed with work."
+  },
+  {
+    "eventId": "evt-086",
+    "timeStamp": "2026-04-11T09:50:00.000Z",
+    "sender": "Rachel",
+    "senderRole": "PT / Physiotherapist",
+    "message": "Hi Rohan, I understand. The 5-hour constraint is tough. How about we focus on the core exercises from your current plan. They are most effective for the time. Aim to do those 3-4 times a week, and just focus on the essentials to maintain strength."
+  },
+  {
+    "eventId": "evt-087",
+    "timeStamp": "2026-04-11T09:55:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Okay, I can try that."
+  },
+  {
+    "eventId": "evt-088",
+    "timeStamp": "2026-04-12T04:30:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Also I need to reschedule my meditation call. I have back to back calls all day."
+  },
+  {
+    "eventId": "evt-089",
+    "timeStamp": "2026-04-12T04:31:00.000Z",
+    "sender": "Ruby",
+    "senderRole": "Concierge",
+    "message": "Sure Rohan, no worries. I have rescheduled your call."
+  },
+  {
+    "eventId": "evt-090",
+    "timeStamp": "2026-04-15T02:30:00.000Z",
+    "sender": "Carla",
+    "senderRole": "Nutritionist",
+    "message": "Rohan, just a friendly reminder on your food logs when you are able to."
+  },
+  {
+    "eventId": "evt-091",
+    "timeStamp": "2026-04-16T08:00:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Travel is going well. I’m mostly sticking to the diet and exercise plan, but the hotel gym is limited. Managed to do the core exercises as Rachel suggested."
+  },
+  {
+    "eventId": "evt-092",
+    "timeStamp": "2026-04-16T08:05:00.000Z",
+    "sender": "Rachel",
+    "senderRole": "PT / Physiotherapist",
+    "message": "That’s excellent news, Rohan."
+  },
+  {
+    "eventId": "evt-093",
+    "timeStamp": "2026-04-16T08:10:00.000Z",
+    "sender": "Neel",
+    "senderRole": "Concierge Lead",
+    "message": "Rohan, glad to hear you are making the most of the situation. Travel is a big part of your life so glad you're finding a good balance with your care plan."
+  },
+  {
+    "eventId": "evt-094",
+    "timeStamp": "2026-04-22T04:00:00.000Z",
+    "sender": "Advik",
+    "senderRole": "Performance Scientist",
+    "message": "[attached Weekly_Sleep_Report.png] Rohan, checking in with your sleep metrics after your business trip. I see your sleep quality had taken a dip, understandably. Keep it up, the team is here to help."
+  },
+  {
+    "eventId": "evt-095",
+    "timeStamp": "2026-04-22T04:40:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Yes, it took a few days to recover."
+  },
+  {
+    "eventId": "evt-096",
+    "timeStamp": "2026-04-26T08:30:00.000Z",
+    "sender": "Rachel",
+    "senderRole": "PT / Physiotherapist",
+    "message": "Hi Rohan, here is your updated exercise plan for the next two weeks. [attached Rohan_Exercise_Plan_v7_Travel_Recovery.pdf]"
+  },
+  {
+    "eventId": "evt-097",
+    "timeStamp": "2026-04-26T08:35:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Thanks, Rachel."
+  },
+  {
+    "eventId": "evt-098",
+    "timeStamp": "2026-04-29T05:45:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Dr Warren, can you share any preliminary results?"
+  },
+  {
+    "eventId": "evt-099",
+    "timeStamp": "2026-04-29T08:00:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "That's great news. Thanks, Dr. Warren."
+  },
+  {
+    "eventId": "evt-100",
+    "timeStamp": "2026-04-30T05:00:00.000Z",
+    "sender": "Carla",
+    "senderRole": "Nutritionist",
+    "message": "Rohan, following up on your nutrition plan, I’ve attached a simple guide on intermittent fasting. As your ApoB has shown some improvements, we could leverage this to further your progress. We can discuss this further at the start of next month. [attached Intermittent_Fasting_Guide.pdf]"
+  },
+  {
+    "eventId": "evt-101",
+    "timeStamp": "2026-04-30T05:05:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Thanks, Carla. I’ll give it a read."
+  },
+  {
+    "eventId": "evt-102",
+    "timeStamp": "2026-05-01T03:30:00.000Z",
+    "sender": "Carla",
+    "senderRole": "Nutritionist",
+    "message": "Good morning, Rohan. Following up on the intermittent fasting guide I sent. Did you have a chance to look it over? I'm happy to answer any questions."
+  },
+  {
+    "eventId": "evt-103",
+    "timeStamp": "2026-05-01T05:00:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Yes, I read it. The concept of time-restricted eating seems manageable. I already skip breakfast sometimes when I'm busy. How would we start?"
+  },
+  {
+    "eventId": "evt-104",
+    "timeStamp": "2026-05-01T05:05:00.000Z",
+    "sender": "Carla",
+    "senderRole": "Nutritionist",
+    "message": "That's a perfect starting point. Let's formalize it. For this week, let's try a simple 1410 schedule a 14-hour fast with a 10-hour eating window. For example, finish dinner by 8 PM and have your first meal at 10 AM. It's a small change that can have a positive impact on insulin sensitivity."
+  },
+  {
+    "eventId": "evt-105",
+    "timeStamp": "2026-05-04T05:30:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Finding it hard to get my workouts in before 10 AM on fasting days. I feel a bit low on energy. Any suggestions?"
+  },
+  {
+    "eventId": "evt-106",
+    "timeStamp": "2026-05-04T05:45:00.000Z",
+    "sender": "Rachel",
+    "senderRole": "PT / Physiotherapist",
+    "message": "Hi Rohan, that's a common experience when starting time-restricted eating. A couple of options you could shift your workouts to your lunch break or after work. Or, if mornings are non-negotiable, we can try a small amount of black coffee or even a scoop of essential amino acids pre-workout, which won't significantly break your fast."
+  },
+  {
+    "eventId": "evt-107",
+    "timeStamp": "2026-05-04T07:50:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Shifting the workout is tough. Let's try the amino acids. Can you recommend a brand?"
+  },
+  {
+    "eventId": "evt-108",
+    "timeStamp": "2026-05-04T07:55:00.000Z",
+    "sender": "Carla",
+    "senderRole": "Nutritionist",
+    "message": "Of course. I've sent you a couple of recommendations for clean, high-quality EAA powders via email."
+  },
+  {
+    "eventId": "evt-109",
+    "timeStamp": "2026-05-08T03:45:00.000Z",
+    "sender": "Advik",
+    "senderRole": "Performance Scientist",
+    "message": "[attached Weekly_HRV_vs_Sleep.png] Morning Rohan. Weekly data check-in. Your HRV has shown a nice upward trend this week, correlating with your consistent sleep schedule. This suggests your body is adapting well to the current training and nutrition protocols. Positive signs."
+  },
+  {
+    "eventId": "evt-110",
+    "timeStamp": "2026-05-10T09:00:00.000Z",
+    "sender": "Rachel",
+    "senderRole": "PT / Physiotherapist",
+    "message": "Hi Rohan, as it's been two weeks, here is your updated plan. We're adding a bit more complexity to the strength movements. Let me know how the fasted workouts are feeling with the EAAs. [attached Rohan_Exercise_Plan_v8_Fasted.pdf]"
+  },
+  {
+    "eventId": "evt-111",
+    "timeStamp": "2026-05-12T10:30:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "The EAAs are helping. Feeling better during the workouts. The 1410 fasting is surprisingly easy."
+  },
+  {
+    "eventId": "evt-112",
+    "timeStamp": "2026-05-15T09:30:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Team, heads up. I'll be traveling to the US for the second week of June. It's a big time zone shift."
+  },
+  {
+    "eventId": "evt-113",
+    "timeStamp": "2026-05-15T09:32:00.000Z",
+    "sender": "Ruby",
+    "senderRole": "Concierge",
+    "message": "Thanks for the advance notice, Rohan. I've marked it down. That's also when your next diagnostic panel is due. We'll need to schedule it for either the week before you leave or right after you get back. Which do you prefer?"
+  },
+  {
+    "eventId": "evt-114",
+    "timeStamp": "2026-05-15T11:40:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Let's do it the week before I leave. Let's get it done."
+  },
+  {
+    "eventId": "evt-115",
+    "timeStamp": "2026-05-15T11:42:00.000Z",
+    "sender": "Ruby",
+    "senderRole": "Concierge",
+    "message": "Understood. I'll find a slot in the first week of June and send you the details."
+  },
+  {
+    "eventId": "evt-116",
+    "timeStamp": "2026-05-18T06:15:00.000Z",
+    "sender": "Advik",
+    "senderRole": "Performance Scientist",
+    "message": "Rohan, given your upcoming US trip, I'll send you our jet lag protocol. It involves specific light exposure and meal timing to help you adapt to the new time zone more quickly. We can use your Garmin data to see how effective it is."
+  },
+  {
+    "eventId": "evt-117",
+    "timeStamp": "2026-05-20T03:00:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "I've been measuring my BP at home and it seems to be consistently lower, around 125/80. Is this a result of the changes we've made?"
+  },
+  {
+    "eventId": "evt-118",
+    "timeStamp": "2026-05-24T08:30:00.000Z",
+    "sender": "Rachel",
+    "senderRole": "PT / Physiotherapist",
+    "message": "Hi Rohan, sending over your updated plan for the next two weeks. We're focusing on maintaining intensity as we head into your next round of testing. [attached Rohan_Exercise_Plan_v9_Maintenance.pdf]"
+  },
+  {
+    "eventId": "evt-119",
+    "timeStamp": "2026-05-26T04:30:00.000Z",
+    "sender": "Carla",
+    "senderRole": "Nutritionist",
+    "message": "How are you feeling with the 1410 fasting schedule, Rohan? If it's comfortable, we could consider tightening the window to 168 on a few days a week to enhance the benefits, but there's no pressure to do so."
+  },
+  {
+    "eventId": "evt-120",
+    "timeStamp": "2026-05-26T07:45:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Let's stick with 1410 for now. It's working and it's sustainable with my schedule. I don't want to push it, especially with travel coming up."
+  },
+  {
+    "eventId": "evt-121",
+    "timeStamp": "2026-05-26T07:50:00.000Z",
+    "sender": "Carla",
+    "senderRole": "Nutritionist",
+    "message": "Perfect. Sustainability is the most important factor. We'll keep it there."
+  },
+  {
+    "eventId": "evt-122",
+    "timeStamp": "2026-05-29T05:00:00.000Z",
+    "sender": "Ruby",
+    "senderRole": "Concierge",
+    "message": "Hi Rohan, I've booked your next diagnostic panel for the morning of June 4th. It's the same comprehensive set of tests as last time. The calendar invite with all preparation details has been sent."
+  },
+  {
+    "eventId": "evt-123",
+    "timeStamp": "2026-05-29T05:30:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Got it. Thanks, Ruby."
+  },
+  {
+    "eventId": "evt-124",
+    "timeStamp": "2026-06-01T05:30:00.000Z",
+    "sender": "Advik",
+    "senderRole": "Performance Scientist",
+    "message": "Hi Rohan, as promised, here is the jet lag protocol for your US trip next week. The key is to start shifting your light exposure and meal times 1-2 days before you fly. It makes a significant difference. Let me know if you have any questions. [attached Jet_Lag_Protocol_US.pdf]"
+  },
+  {
+    "eventId": "evt-125",
+    "timeStamp": "2026-06-02T04:00:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Thanks, Advik. I'll review this. Seems a bit complex."
+  },
+  {
+    "eventId": "evt-126",
+    "timeStamp": "2026-06-02T04:05:00.000Z",
+    "sender": "Advik",
+    "senderRole": "Performance Scientist",
+    "message": "The document is comprehensive, but the core actions are simple 1. Get morning sunlight in the new time zone as soon as possible. 2. Avoid heavy meals late at night in the new time zone. Even just focusing on those two will get you 80% of the benefit."
+  },
+  {
+    "eventId": "evt-127",
+    "timeStamp": "2026-06-04T06:15:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Diagnostic tests are complete."
+  },
+  {
+    "eventId": "evt-128",
+    "timeStamp": "2026-06-04T06:20:00.000Z",
+    "sender": "Ruby",
+    "senderRole": "Concierge",
+    "message": "Great, thanks for confirming, Rohan. The team will start analyzing the results as they come in."
+  },
+  {
+    "eventId": "evt-129",
+    "timeStamp": "2026-06-07T08:45:00.000Z",
+    "sender": "Rachel",
+    "senderRole": "PT / Physiotherapist",
+    "message": "Hi Rohan, here is your updated exercise plan. It's designed to be travel-friendly for your US trip, with a focus on bodyweight and hotel gym options. The main goal is maintenance and consistency while you're away. [attached Rohan_Exercise_Plan_v10_Travel.pdf]"
+  },
+  {
+    "eventId": "evt-130",
+    "timeStamp": "2026-06-09T02:30:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Flying out tomorrow. I'll do my best to follow the protocol."
+  },
+  {
+    "eventId": "evt-131",
+    "timeStamp": "2026-06-12T12:00:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "This jet lag is brutal, but I think the protocol is helping slightly. Managed to get a workout in this morning."
+  },
+  {
+    "eventId": "evt-132",
+    "timeStamp": "2026-06-12T12:15:00.000Z",
+    "sender": "Advik",
+    "senderRole": "Performance Scientist",
+    "message": "That's great to hear, Rohan. The first 48 hours are the toughest. Pushing through for that morning workout and getting the light exposure is the fastest way to get your body clock synced up. Keep it up."
+  },
+  {
+    "eventId": "evt-133",
+    "timeStamp": "2026-06-17T04:45:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Wow. That's fantastic news. A 15% drop in ApoB is more than I expected. It's good to see the data confirm that the effort is paying off."
+  },
+  {
+    "eventId": "evt-134",
+    "timeStamp": "2026-06-17T04:50:00.000Z",
+    "sender": "Neel",
+    "senderRole": "Concierge Lead",
+    "message": "This is what it's all about, Rohan. Congratulations on your consistency. It's a testament to the partnership and the small, sustainable changes you've implemented. We're thrilled with these results."
+  },
+  {
+    "eventId": "evt-135",
+    "timeStamp": "2026-06-19T09:30:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Just back in Singapore. The trip was successful but exhausting."
+  },
+  {
+    "eventId": "evt-136",
+    "timeStamp": "2026-06-21T05:30:00.000Z",
+    "sender": "Ruby",
+    "senderRole": "Concierge",
+    "message": "Welcome back, Rohan. Now that we have your test results, I'd like to schedule your Q2 Health Review call with Dr. Warren and Neel to discuss the progress and refine the plan for the next quarter. How does June 28th look?"
+  },
+  {
+    "eventId": "evt-137",
+    "timeStamp": "2026-06-21T09:00:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "The 28th works."
+  },
+  {
+    "eventId": "evt-138",
+    "timeStamp": "2026-06-21T09:01:00.000Z",
+    "sender": "Ruby",
+    "senderRole": "Concierge",
+    "message": "Invite sent."
+  },
+  {
+    "eventId": "evt-139",
+    "timeStamp": "2026-06-23T04:30:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "I'm finding it hard to get back into the routine after the trip. Feeling sluggish and unmotivated this week."
+  },
+  {
+    "eventId": "evt-140",
+    "timeStamp": "2026-06-23T04:45:00.000Z",
+    "sender": "Rachel",
+    "senderRole": "PT / Physiotherapist",
+    "message": "Completely normal, Rohan. Post-travel inertia is real. Let's not even think about the full plan. For this week, the only goal is to go for a 20-minute walk outside each day. That's it. The movement and sunlight will do more for your energy and motivation than forcing a tough workout."
+  },
+  {
+    "eventId": "evt-141",
+    "timeStamp": "2026-06-24T10:30:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "I've been reading about saunas and their impact on cardiovascular health. Is that something the team has a perspective on?"
+  },
+  {
+    "eventId": "evt-142",
+    "timeStamp": "2026-06-28T10:15:00.000Z",
+    "sender": "Neel",
+    "senderRole": "Concierge Lead",
+    "message": "Rohan, thanks again for the call. It's great to be able to shift our focus from \"fixing\" biomarkers to \"optimizing\" them."
+  },
+  {
+    "eventId": "evt-143",
+    "timeStamp": "2026-06-28T11:30:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "The plan sounds good. I'm happy with the progress and ready for the next phase."
+  },
+  {
+    "eventId": "evt-144",
+    "timeStamp": "2026-07-01T03:15:00.000Z",
+    "sender": "Rachel",
+    "senderRole": "PT / Physiotherapist",
+    "message": "Good morning, Rohan. Just checking in on the new plan. How are you finding the second Zone 2 session?"
+  },
+  {
+    "eventId": "evt-145",
+    "timeStamp": "2026-07-01T05:50:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "It's a challenge to fit in, but I managed to get both done last week. It definitely pushes my 5-hour limit to the edge. I had to shorten one of my strength workouts to make it work."
+  },
+  {
+    "eventId": "evt-146",
+    "timeStamp": "2026-07-01T05:55:00.000Z",
+    "sender": "Rachel",
+    "senderRole": "PT / Physiotherapist",
+    "message": "That's a smart trade-off. It's perfectly fine to adjust the length of the strength sessions to accommodate the cardio. The key is consistency with both. Thanks for the feedback."
+  },
+  {
+    "eventId": "evt-147",
+    "timeStamp": "2026-07-04T04:30:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "I've used the sauna at my gym twice now. I'm following the 15-minute protocol. It feels good, very relaxing. Is there a way to track the direct impact of this?"
+  },
+  {
+    "eventId": "evt-148",
+    "timeStamp": "2026-07-04T04:45:00.000Z",
+    "sender": "Advik",
+    "senderRole": "Performance Scientist",
+    "message": "Hi Rohan, that's a great question. The most immediate metric we can track is your HRV the morning after a sauna session. Many people see a noticeable improvement in their \"readiness\" or \"recovery\" scores on their Garmin. Over the long term, we'd expect to see a positive trend in your resting heart rate and blood pressure. I'll keep an eye on your data for those correlations."
+  },
+  {
+    "eventId": "evt-149",
+    "timeStamp": "2026-07-07T03:30:00.000Z",
+    "sender": "Advik",
+    "senderRole": "Performance Scientist",
+    "message": "[attached Weekly_HRV_Analysis.png] Speaking of which, here's your weekly data. We can actually see a small but distinct jump in your HRV on the mornings of July 5th and July 7th, the days after you noted using the sauna. Early days, but it's a promising sign that your nervous system is responding well to it."
+  },
+  {
+    "eventId": "evt-150",
+    "timeStamp": "2026-07-10T10:00:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Team, I need to travel to South Korea for the last week of this month. It's a bit last minute."
+  },
+  {
+    "eventId": "evt-151",
+    "timeStamp": "2026-07-10T10:02:00.000Z",
+    "sender": "Ruby",
+    "senderRole": "Concierge",
+    "message": "Thanks for the heads up, Rohan. No problem at all. I've noted the dates. I'll coordinate with Rachel and Carla to get a travel-friendly plan ready for you."
+  },
+  {
+    "eventId": "evt-152",
+    "timeStamp": "2026-07-12T08:30:00.000Z",
+    "sender": "Rachel",
+    "senderRole": "PT / Physiotherapist",
+    "message": "Hi Rohan, here is your updated plan for the next two weeks. It includes some progressions on your core lifts. I'll send the travel-specific version closer to your departure date. [attached Rohan_Exercise_Plan_v11_Progression.pdf]"
+  },
+  {
+    "eventId": "evt-153",
+    "timeStamp": "2026-07-15T05:30:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "I've been really consistent with my diet and workouts for the past month, but I feel like I've hit a plateau. My weight hasn't changed, and I feel a bit stale."
+  },
+  {
+    "eventId": "evt-154",
+    "timeStamp": "2026-07-15T06:00:00.000Z",
+    "sender": "Neel",
+    "senderRole": "Concierge Lead",
+    "message": "Hi Rohan, Neel here. Thanks for sharing that. It's a very common feeling, especially after a period of great progress. Plateaus are a normal part of any long-term health journey. It often means your body has successfully adapted to the current plan, which is a good thing! The team will discuss this and come back with some strategies to break through it."
+  },
+  {
+    "eventId": "evt-155",
+    "timeStamp": "2026-07-16T04:15:00.000Z",
+    "sender": "Carla",
+    "senderRole": "Nutritionist",
+    "message": "Rohan, regarding the plateau, one simple strategy we can employ is a \"refeed day.\" One day a week, we can strategically increase your intake of clean carbohydrates. This can help boost your metabolism and leptin levels, which can sometimes dip during long periods of caloric consistency. It's not a \"cheat day,\" but a planned metabolic reset."
+  },
+  {
+    "eventId": "evt-156",
+    "timeStamp": "2026-07-16T07:35:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "That sounds interesting. I'm open to trying it. What would that look like?"
+  },
+  {
+    "eventId": "evt-157",
+    "timeStamp": "2026-07-16T07:40:00.000Z",
+    "sender": "Carla",
+    "senderRole": "Nutritionist",
+    "message": "I'll send you a short guide. Essentially, on a day you have a tougher workout, you'd add in an extra serving of something like sweet potato, quinoa, or brown rice with two of your meals. It's that simple."
+  },
+  {
+    "eventId": "evt-158",
+    "timeStamp": "2026-07-19T05:00:00.000Z",
+    "sender": "Rachel",
+    "senderRole": "PT / Physiotherapist",
+    "message": "To build on Carla's point, we can also use a similar strategy in your training. To break the plateau, we can introduce a \"deload\" week. For your travel week in South Korea, instead of trying to hit the workouts hard, we'll intentionally reduce the volume and intensity. This gives your body extra time to recover and supercompensate, so you come back stronger."
+  },
+  {
+    "eventId": "evt-159",
+    "timeStamp": "2026-07-22T09:30:00.000Z",
+    "sender": "Rachel",
+    "senderRole": "PT / Physiotherapist",
+    "message": "Hi Rohan, as promised, here is the \"deload\" plan for your South Korea trip next week. The focus is on light activity, mobility, and recovery. Think of it as an active rest week. [attached Rohan_Deload_Plan_Travel.pdf]"
+  },
+  {
+    "eventId": "evt-160",
+    "timeStamp": "2026-07-25T12:30:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Arrived in Seoul. The hotel gym is decent. I'll stick to the deload plan."
+  },
+  {
+    "eventId": "evt-161",
+    "timeStamp": "2026-07-28T02:45:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "I tried the refeed day yesterday. It was nice to have the extra carbs. Felt good in my workout today, even with the jet lag."
+  },
+  {
+    "eventId": "evt-162",
+    "timeStamp": "2026-07-28T03:00:00.000Z",
+    "sender": "Carla",
+    "senderRole": "Nutritionist",
+    "message": "Excellent. That's exactly the intended effect. It can be a powerful psychological and physiological tool."
+  },
+  {
+    "eventId": "evt-163",
+    "timeStamp": "2026-07-31T10:30:00.000Z",
+    "sender": "Neel",
+    "senderRole": "Concierge Lead",
+    "message": "Rohan, just checking in as we close out the month. It sounds like you're navigating the travel and the feeling of plateauing really well. This is a more advanced phase of the journey, and the team is focused on providing you with the tools to manage these nuances."
+  },
+  {
+    "eventId": "evt-164",
+    "timeStamp": "2026-08-01T04:00:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Back from my trip. The deload week was actually great. I feel more recovered than I usually do after travel. Ready to get back to the full routine."
+  },
+  {
+    "eventId": "evt-165",
+    "timeStamp": "2026-08-01T04:05:00.000Z",
+    "sender": "Rachel",
+    "senderRole": "PT / Physiotherapist",
+    "message": "Excellent, that's exactly what we wanted to achieve. Easing back in, let's start this week at about 80% of your usual intensity and weights, then we'll ramp back up to 100% next week. Your body will thank you."
+  },
+  {
+    "eventId": "evt-166",
+    "timeStamp": "2026-08-04T05:30:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "I have a question about supplements. A colleague of mine is taking NMN for longevity. What's the team's view on this? Is it something I should consider?"
+  },
+  {
+    "eventId": "evt-167",
+    "timeStamp": "2026-08-05T08:45:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Okay, that's a reasonable and prudent take. I appreciate the clear rationale."
+  },
+  {
+    "eventId": "evt-168",
+    "timeStamp": "2026-08-08T03:30:00.000Z",
+    "sender": "Advik",
+    "senderRole": "Performance Scientist",
+    "message": "[attached Weekly_RHR_Trend.png] Morning Rohan. Just wanted to highlight a positive long-term trend in your data. Your average Resting Heart Rate has dropped by 4 bpm since we started in January. This is a powerful indicator of improved cardiovascular efficiency and fitness. A direct result of your consistent Zone 2 work."
+  },
+  {
+    "eventId": "evt-169",
+    "timeStamp": "2026-08-09T09:30:00.000Z",
+    "sender": "Rachel",
+    "senderRole": "PT / Physiotherapist",
+    "message": "Hi Rohan, here is your updated exercise plan. We are now officially back to full intensity after your deload and ramp-up weeks. I've introduced some new movement variations to keep things interesting. [attached Rohan_Exercise_Plan_v12_FullIntensity.pdf]"
+  },
+  {
+    "eventId": "evt-170",
+    "timeStamp": "2026-08-12T02:45:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "This new routine is tough. I hit the Zone 2 and strength sessions hard this week and I'm feeling quite sore and fatigued. My Garmin \"Body Battery\" score is in the single digits this morning."
+  },
+  {
+    "eventId": "evt-171",
+    "timeStamp": "2026-08-12T03:00:00.000Z",
+    "sender": "Advik",
+    "senderRole": "Performance Scientist",
+    "message": "I see that in the data, Rohan. A significant drop in HRV as well. This is a classic sign of accumulated training stress. Today is a perfect day for an active recovery session instead of a hard workout. Think a 20-minute walk, some light stretching, or even just a sauna session. Listening to these signals is key to preventing overtraining."
+  },
+  {
+    "eventId": "evt-172",
+    "timeStamp": "2026-08-12T05:15:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Okay, I'll skip the planned workout and just do a walk and sauna. It's a bit of a mindset shift to not push through, but I'll trust the data."
+  },
+  {
+    "eventId": "evt-173",
+    "timeStamp": "2026-08-16T08:30:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "I'm trying to schedule a personal vacation for the third week of September. It will be a full week off."
+  },
+  {
+    "eventId": "evt-174",
+    "timeStamp": "2026-08-16T08:35:00.000Z",
+    "sender": "Ruby",
+    "senderRole": "Concierge",
+    "message": "That's wonderful to hear, Rohan! I'll mark that in the calendar. That's also the same month your next diagnostic panel is due. Shall we aim to get the tests done in the first or second week of September, before you go?"
+  },
+  {
+    "eventId": "evt-175",
+    "timeStamp": "2026-08-16T11:20:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "Let's do the second week of September."
+  },
+  {
+    "eventId": "evt-176",
+    "timeStamp": "2026-08-16T11:21:00.000Z",
+    "sender": "Ruby",
+    "senderRole": "Concierge",
+    "message": "Perfect. I'll get that scheduled and send over the details once confirmed."
+  },
+  {
+    "eventId": "evt-177",
+    "timeStamp": "2026-08-20T08:00:00.000Z",
+    "sender": "Carla",
+    "senderRole": "Nutritionist",
+    "message": "Hi Rohan, just a quick check-in. How are you finding the weekly refeed day? Are you noticing any patterns in your energy or performance?"
+  },
+  {
+    "eventId": "evt-178",
+    "timeStamp": "2026-08-20T10:30:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "It's been good. I find I look forward to it, and I do feel like my energy is higher for the 1-2 days following it. It breaks up the monotony of the diet."
+  },
+  {
+    "eventId": "evt-179",
+    "timeStamp": "2026-08-23T07:45:00.000Z",
+    "sender": "Rachel",
+    "senderRole": "PT / Physiotherapist",
+    "message": "Hi Rohan, sending over your next two-week plan. It maintains the current intensity but focuses on improving your form on some of the key lifts. [attached Rohan_Exercise_Plan_v13_Technique.pdf]"
+  },
+  {
+    "eventId": "evt-180",
+    "timeStamp": "2026-08-26T04:30:00.000Z",
+    "sender": "Rohan",
+    "senderRole": "Member",
+    "message": "I'm feeling some minor pain in my left knee after my runs. It's not sharp, more of a dull ache."
+  },
+  {
+    "eventId": "evt-181",
+    "timeStamp": "2026-08-26T04:40:00.000Z",
+    "sender": "Rachel",
+    "senderRole": "PT / Physiotherapist",
+    "message": "Thanks for flagging that immediately, Rohan. Let's be proactive. For the rest of this week, please replace any running or jogging with a lower-impact alternative for your Zone 2, like the stationary bike or an elliptical. I've also sent you a short video of a foam rolling routine for your quads and IT band. Let's see if that alleviates the ache. If it persists, we'll investigate further."
+  },
+  {
+    "eventId": "evt-182",
+    "timeStamp": "2026-08-29T06:00:00.000Z",
+    "sender": "Neel",
+    "senderRole": "Concierge Lead",
+    "message": "Hi Rohan, Neel here. I've been reviewing your journey this month. It strikes me how much your conversations with the team have evolved. You're now proactively managing your own recovery based on wearable data and flagging minor physical issues before they become major problems. This is a huge step towards truly autonomous health management, which is our ultimate goal for you. Excellent work."
+  }
+]

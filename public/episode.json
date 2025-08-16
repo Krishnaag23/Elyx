@@ -1,0 +1,651 @@
+{
+  "member_profile": {
+    "name": "Rohan",
+    "role": "Member",
+    "initial_health_concerns": [
+      "Blood pressure consistently 135/85, sometimes higher",
+      "Increased fatigue",
+      "Low deep sleep duration (45 minutes/night)",
+      "ApoB levels concerning"
+    ],
+    "constraints": {
+      "time_availability": "5 hours per week total",
+      "lifestyle": "Frequent business travel",
+      "preferences": "Data-driven approach, minimal complexity"
+    },
+    "biomarkers_tracked": [
+      "Blood pressure",
+      "ApoB levels", 
+      "Deep sleep duration",
+      "HRV (Heart Rate Variability)",
+      "Resting heart rate",
+      "VO2 max",
+      "Omega-3 index"
+    ]
+  },
+
+  "team_composition": {
+    "concierge_team": [
+      {
+        "name": "Ruby",
+        "role": "Concierge",
+        "responsibilities": ["Primary coordination", "Appointment scheduling", "Calendar management"]
+      },
+      {
+        "name": "Neel", 
+        "role": "Concierge Lead",
+        "responsibilities": ["Strategic oversight", "Member satisfaction", "Quarterly reviews"]
+      }
+    ],
+    "medical_team": [
+      {
+        "name": "Dr. Warren",
+        "role": "Medical Strategist", 
+        "responsibilities": ["Health strategy", "Medical oversight", "Quarterly reviews"]
+      }
+    ],
+    "specialists": [
+      {
+        "name": "Carla",
+        "role": "Nutritionist",
+        "responsibilities": ["Diet planning", "Supplement recommendations", "Food tracking"]
+      },
+      {
+        "name": "Rachel",
+        "role": "PT/Physiotherapist",
+        "responsibilities": ["Exercise programming", "Movement assessment", "Travel adaptations"]
+      },
+      {
+        "name": "Advik",
+        "role": "Performance Scientist",
+        "responsibilities": ["Wearable data analysis", "Sleep optimization", "Recovery monitoring"]
+      }
+    ]
+  },
+
+  "journey_episodes": [
+    {
+      "episode_number": 1,
+      "title": "Initial Health Inquiry & Onboarding",
+      "date_range": "2026-01-02 to 2026-01-04",
+      "duration_days": 2,
+      "primary_goal": "Member seeks help for high blood pressure and fatigue",
+      "triggered_by": "Member",
+      "key_interactions": [
+        {
+          "timestamp": "2026-01-02T03:45:00.000Z",
+          "actor": "Rohan",
+          "action": "Initial health inquiry with BP readings 135/85"
+        },
+        {
+          "timestamp": "2026-01-02T03:48:00.000Z", 
+          "actor": "Ruby",
+          "action": "Welcome and coordination offer"
+        },
+        {
+          "timestamp": "2026-01-02T03:49:00.000Z",
+          "actor": "Ruby", 
+          "action": "Schedule intro call with Dr. Warren"
+        }
+      ],
+      "friction_points": [],
+      "outcome": "Information Provided & Plan Proposed",
+      "metrics": {
+        "response_time_minutes": 3,
+        "time_to_resolution_days": 2
+      },
+      "persona_evolution": {
+        "before_state": "Health-conscious individual with concerning symptoms seeking professional guidance",
+        "after_state": "Engaged member with scheduled medical consultation and clear next steps"
+      }
+    },
+
+    {
+      "episode_number": 2,
+      "title": "Team Introduction & Initial Assessment",
+      "date_range": "2026-01-04 to 2026-01-11",
+      "duration_days": 7,
+      "primary_goal": "Establish baseline through team introductions and initial assessments",
+      "triggered_by": "Both Member and Team",
+      "key_interactions": [
+        {
+          "timestamp": "2026-01-04T05:32:00.000Z",
+          "actor": "Rohan",
+          "action": "Proactive inquiry about DASH diet"
+        },
+        {
+          "timestamp": "2026-01-05T02:50:00.000Z",
+          "actor": "Rohan", 
+          "action": "Expresses time constraint (5 hours/week total)"
+        },
+        {
+          "timestamp": "2026-01-08T03:30:00.000Z",
+          "actor": "Rachel",
+          "action": "Introduces movement assessment"
+        }
+      ],
+      "friction_points": [
+        {
+          "type": "Process Complexity",
+          "description": "Food logging perceived as tedious by time-constrained member",
+          "resolution": "Simplified to photo-based tracking"
+        }
+      ],
+      "outcome": "Assessment in Progress",
+      "metrics": {
+        "response_time_minutes": 8,
+        "time_to_resolution_days": 7
+      },
+      "persona_evolution": {
+        "before_state": "Engaged member with scheduled medical consultation",
+        "after_state": "Active participant adapting processes to fit lifestyle constraints"
+      }
+    },
+
+    {
+      "episode_number": 3,
+      "title": "Schedule Coordination & Data Integration",
+      "date_range": "2026-01-09 to 2026-01-18",
+      "duration_days": 9,
+      "primary_goal": "Coordinate diagnostics and integrate wearable data",
+      "triggered_by": "Team",
+      "key_interactions": [
+        {
+          "timestamp": "2026-01-09T09:30:00.000Z",
+          "actor": "Ruby",
+          "action": "Coordinate comprehensive diagnostic panel"
+        },
+        {
+          "timestamp": "2026-01-11T04:30:00.000Z",
+          "actor": "Advik",
+          "action": "Request Garmin data access"
+        },
+        {
+          "timestamp": "2026-01-18T10:33:00.000Z",
+          "actor": "Rohan",
+          "action": "Proactive travel notification (London Feb 12-16)"
+        }
+      ],
+      "friction_points": [
+        {
+          "type": "Scheduling Conflict",
+          "description": "Member requests to push tests to February due to packed January",
+          "resolution": "Flexible rescheduling accommodation"
+        }
+      ],
+      "outcome": "Coordination Successful",
+      "metrics": {
+        "response_time_minutes": 2,
+        "time_to_resolution_days": 9
+      },
+      "persona_evolution": {
+        "before_state": "Active participant adapting processes to fit lifestyle constraints",
+        "after_state": "Collaborative partner proactively managing schedule integration"
+      }
+    },
+
+    {
+      "episode_number": 4,
+      "title": "First Results & Sleep Optimization",
+      "date_range": "2026-01-15 to 2026-02-05",
+      "duration_days": 21,
+      "primary_goal": "Address sleep quality issues and show initial progress",
+      "triggered_by": "Team Data Analysis",
+      "key_interactions": [
+        {
+          "timestamp": "2026-01-15T04:00:00.000Z",
+          "actor": "Advik",
+          "action": "Identifies low deep sleep as fatigue contributor"
+        },
+        {
+          "timestamp": "2026-02-05T03:45:00.000Z",
+          "actor": "Advik",
+          "action": "Reports 18% increase in deep sleep from consistent bedtime"
+        }
+      ],
+      "friction_points": [],
+      "outcome": "Measurable Progress Achieved",
+      "metrics": {
+        "response_time_minutes": 5,
+        "time_to_resolution_days": 21,
+        "key_improvement": "18% increase in deep sleep duration"
+      },
+      "persona_evolution": {
+        "before_state": "Collaborative partner proactively managing schedule integration",
+        "after_state": "Motivated participant seeing tangible results from data-driven interventions"
+      }
+    },
+
+    {
+      "episode_number": 5,
+      "title": "Travel Adaptation & Consistency Challenges",
+      "date_range": "2026-02-08 to 2026-02-26",
+      "duration_days": 18,
+      "primary_goal": "Maintain program consistency during business travel",
+      "triggered_by": "Member Travel Requirements",
+      "key_interactions": [
+        {
+          "timestamp": "2026-02-12T11:00:00.000Z",
+          "actor": "Rachel",
+          "action": "Provides travel-specific workout plans"
+        },
+        {
+          "timestamp": "2026-02-14T12:45:00.000Z",
+          "actor": "Rohan",
+          "action": "Reports challenge maintaining routine during hectic London trip"
+        },
+        {
+          "timestamp": "2026-02-26T07:30:00.000Z",
+          "actor": "Rohan",
+          "action": "Acknowledges 5-hour weekly limit as 'real ceiling'"
+        }
+      ],
+      "friction_points": [
+        {
+          "type": "Travel Disruption",
+          "description": "Business travel makes diet and exercise difficult to control",
+          "resolution": "Team provides realistic expectations and recovery protocols"
+        },
+        {
+          "type": "Time Constraints",
+          "description": "Member reaffirms 5-hour weekly limit as hard constraint",
+          "resolution": "Adaptive programming to maintain habits within constraints"
+        }
+      ],
+      "outcome": "Adaptive Strategies Implemented",
+      "metrics": {
+        "response_time_minutes": 15,
+        "time_to_resolution_days": 18
+      },
+      "persona_evolution": {
+        "before_state": "Motivated participant seeing tangible results",
+        "after_state": "Realistic participant understanding program limitations and adaptations"
+      }
+    },
+
+    {
+      "episode_number": 6,
+      "title": "Advanced Biomarker Focus & Zone 2 Integration",
+      "date_range": "2026-02-21 to 2026-03-11",
+      "duration_days": 18,
+      "primary_goal": "Address ApoB concerns with targeted cardiovascular interventions",
+      "triggered_by": "Blood Panel Results",
+      "key_interactions": [
+        {
+          "timestamp": "2026-02-21T06:15:00.000Z",
+          "actor": "Rohan",
+          "action": "Demonstrates knowledge of ApoB and Zone 2 cardio from Peter Attia's work"
+        },
+        {
+          "timestamp": "2026-03-01T03:35:00.000Z",
+          "actor": "Rachel",
+          "action": "Integrates Zone 2 cardio protocol for ApoB improvement"
+        },
+        {
+          "timestamp": "2026-03-11T02:45:00.000Z",
+          "actor": "Rohan",
+          "action": "Reports inability to fit additional 30-45 minutes consistently"
+        }
+      ],
+      "friction_points": [
+        {
+          "type": "Program Complexity",
+          "description": "Adding Zone 2 cardio exceeds member's time constraints",
+          "resolution": "Swap approach - replace existing sessions rather than add new ones"
+        }
+      ],
+      "outcome": "Program Optimization via Substitution",
+      "metrics": {
+        "response_time_minutes": 15,
+        "time_to_resolution_days": 18
+      },
+      "persona_evolution": {
+        "before_state": "Realistic participant understanding program limitations",
+        "after_state": "Sophisticated participant actively problem-solving within constraints"
+      }
+    },
+
+    {
+      "episode_number": 7,
+      "title": "Quarterly Review & Strategic Planning",
+      "date_range": "2026-03-16 to 2026-04-01",
+      "duration_days": 16,
+      "primary_goal": "Comprehensive review and Q2 strategy development",
+      "triggered_by": "Scheduled Review Process",
+      "key_interactions": [
+        {
+          "timestamp": "2026-03-29T10:35:00.000Z",
+          "actor": "Neel",
+          "action": "Conducts productive quarterly review"
+        },
+        {
+          "timestamp": "2026-03-29T11:45:00.000Z",
+          "actor": "Rohan",
+          "action": "Expresses satisfaction with comprehensive overview and Q2 plan"
+        }
+      ],
+      "friction_points": [],
+      "outcome": "Strategic Alignment Achieved",
+      "metrics": {
+        "response_time_minutes": 65,
+        "time_to_resolution_days": 16
+      },
+      "persona_evolution": {
+        "before_state": "Sophisticated participant actively problem-solving within constraints",
+        "after_state": "Strategic partner aligned on long-term health optimization approach"
+      }
+    },
+
+    {
+      "episode_number": 8,
+      "title": "Stress Management Integration",
+      "date_range": "2026-04-01 to 2026-04-12",
+      "duration_days": 11,
+      "primary_goal": "Address stress and explore meditation for blood pressure",
+      "triggered_by": "Member Interest",
+      "key_interactions": [
+        {
+          "timestamp": "2026-04-03T04:00:00.000Z",
+          "actor": "Rohan",
+          "action": "Inquires about meditation for blood pressure"
+        },
+        {
+          "timestamp": "2026-04-11T09:45:00.000Z",
+          "actor": "Rohan",
+          "action": "Reports work stress affecting workout consistency"
+        }
+      ],
+      "friction_points": [
+        {
+          "type": "Work Stress",
+          "description": "External stressors impacting program adherence",
+          "resolution": "Focus on essential exercises and stress management resources"
+        }
+      ],
+      "outcome": "Holistic Approach Adopted",
+      "metrics": {
+        "response_time_minutes": 15,
+        "time_to_resolution_days": 11
+      },
+      "persona_evolution": {
+        "before_state": "Strategic partner aligned on long-term approach",
+        "after_state": "Holistic health participant addressing multiple wellness dimensions"
+      }
+    },
+
+    {
+      "episode_number": 9,
+      "title": "Progress Validation & Results Communication",
+      "date_range": "2026-04-26 to 2026-06-17",
+      "duration_days": 52,
+      "primary_goal": "Demonstrate measurable health improvements",
+      "triggered_by": "Follow-up Testing Results",
+      "key_interactions": [
+        {
+          "timestamp": "2026-04-29T05:45:00.000Z",
+          "actor": "Rohan",
+          "action": "Requests preliminary results"
+        },
+        {
+          "timestamp": "2026-05-20T03:00:00.000Z",
+          "actor": "Rohan",
+          "action": "Reports home BP consistently lower at 125/80"
+        },
+        {
+          "timestamp": "2026-06-17T04:45:00.000Z",
+          "actor": "Rohan",
+          "action": "Celebrates 15% ApoB reduction as 'fantastic news'"
+        }
+      ],
+      "friction_points": [],
+      "outcome": "Significant Health Improvements Achieved",
+      "metrics": {
+        "response_time_minutes": 180,
+        "time_to_resolution_days": 52,
+        "key_improvements": {
+          "blood_pressure_reduction": "135/85 → 125/80",
+          "apoB_reduction_percent": 15,
+          "deep_sleep_increase_percent": 18,
+          "resting_heart_rate_reduction_bpm": 4
+        }
+      },
+      "persona_evolution": {
+        "before_state": "Holistic health participant addressing multiple wellness dimensions",
+        "after_state": "Validated success story with measurable health improvements"
+      }
+    },
+
+    {
+      "episode_number": 10,
+      "title": "Advanced Optimization & Plateau Management",
+      "date_range": "2026-07-01 to 2026-08-01",
+      "duration_days": 31,
+      "primary_goal": "Navigate plateaus and optimize advanced protocols",
+      "triggered_by": "Member Experience of Plateau",
+      "key_interactions": [
+        {
+          "timestamp": "2026-07-15T05:30:00.000Z",
+          "actor": "Rohan",
+          "action": "Reports feeling plateau despite consistency"
+        },
+        {
+          "timestamp": "2026-07-16T04:15:00.000Z",
+          "actor": "Carla",
+          "action": "Introduces refeed day strategy for metabolic reset"
+        },
+        {
+          "timestamp": "2026-07-28T02:45:00.000Z",
+          "actor": "Rohan",
+          "action": "Positive response to refeed day implementation"
+        }
+      ],
+      "friction_points": [
+        {
+          "type": "Motivational Plateau",
+          "description": "Member experiences staleness despite good adherence",
+          "resolution": "Strategic refeed days and deload weeks for physiological and psychological reset"
+        }
+      ],
+      "outcome": "Advanced Periodization Strategies Implemented",
+      "metrics": {
+        "response_time_minutes": 45,
+        "time_to_resolution_days": 31
+      },
+      "persona_evolution": {
+        "before_state": "Validated success story with measurable improvements",
+        "after_state": "Advanced practitioner learning sophisticated optimization strategies"
+      }
+    },
+
+    {
+      "episode_number": 11,
+      "title": "Autonomous Health Management Development",
+      "date_range": "2026-08-01 to 2026-08-29",
+      "duration_days": 28,
+      "primary_goal": "Develop member's autonomous health management capabilities",
+      "triggered_by": "Team Recognition of Member Growth",
+      "key_interactions": [
+        {
+          "timestamp": "2026-08-12T02:45:00.000Z",
+          "actor": "Rohan",
+          "action": "Self-reports fatigue and low Garmin Body Battery scores"
+        },
+        {
+          "timestamp": "2026-08-12T05:15:00.000Z",
+          "actor": "Rohan",
+          "action": "Accepts data-driven recommendation to modify workout despite mental resistance"
+        },
+        {
+          "timestamp": "2026-08-29T06:00:00.000Z",
+          "actor": "Neel",
+          "action": "Acknowledges member's evolution toward autonomous health management"
+        }
+      ],
+      "friction_points": [],
+      "outcome": "Autonomous Health Management Skills Developed",
+      "metrics": {
+        "response_time_minutes": 15,
+        "time_to_resolution_days": 28
+      },
+      "persona_evolution": {
+        "before_state": "Advanced practitioner learning sophisticated optimization strategies",
+        "after_state": "Autonomous health manager capable of self-directed decision making"
+      }
+    }
+  ],
+
+  "communication_patterns": {
+    "average_response_time_minutes": 24.3,
+    "total_interactions": 182,
+    "member_initiated_interactions": 89,
+    "team_initiated_interactions": 93,
+    "communication_frequency": {
+      "daily_average": 0.8,
+      "peak_periods": ["Initial onboarding", "Travel preparation", "Results discussion"],
+      "quiet_periods": ["Stable routine execution", "Travel periods"]
+    },
+    "interaction_types": {
+      "status_updates": 45,
+      "question_and_answer": 38,
+      "plan_delivery": 32,
+      "scheduling": 28,
+      "data_sharing": 25,
+      "feedback_collection": 14
+    }
+  },
+
+  "friction_analysis": {
+    "total_friction_points": 8,
+    "categories": {
+      "Process Complexity": 2,
+      "Scheduling Conflicts": 2,
+      "Time Constraints": 2,
+      "Travel Disruption": 1,
+      "Motivational Plateau": 1
+    },
+    "resolution_effectiveness": {
+      "immediate_resolution": 6,
+      "required_iteration": 2,
+      "ongoing_management": 0
+    },
+    "resolution_strategies": [
+      "Simplification (food photos vs logging)",
+      "Flexible scheduling",
+      "Substitution vs addition approach",
+      "Realistic expectation setting",
+      "Advanced periodization techniques"
+    ]
+  },
+
+  "outcome_metrics": {
+    "biomarker_improvements": {
+      "blood_pressure": {
+        "baseline": "135/85",
+        "current": "125/80",
+        "improvement_percent": "7.4% systolic, 5.9% diastolic"
+      },
+      "apoB": {
+        "improvement_percent": 15,
+        "clinical_significance": "Significant cardiovascular risk reduction"
+      },
+      "sleep_quality": {
+        "deep_sleep_increase_percent": 18,
+        "consistency_improvement": "Maintained through travel and stress"
+      },
+      "cardiovascular_fitness": {
+        "resting_heart_rate_reduction_bpm": 4,
+        "hrv_trend": "Positive with ability to self-monitor"
+      }
+    },
+    "behavioral_changes": {
+      "exercise_consistency": "Maintained within 5-hour weekly constraint",
+      "nutrition_adherence": "Sustainable through travel and work stress",
+      "sleep_hygiene": "Consistent bedtime routine established",
+      "stress_management": "Proactive recovery monitoring implemented"
+    },
+    "program_efficiency": {
+      "time_constraint_respect": "100% adherence to 5-hour weekly limit",
+      "travel_adaptability": "Successful protocol execution across multiple trips",
+      "plateau_management": "Advanced strategies successfully implemented"
+    }
+  },
+
+  "member_satisfaction_indicators": {
+    "explicit_satisfaction_statements": [
+      "The comprehensive overview was very clear and helpful",
+      "It's good to see the data confirm that the effort is paying off", 
+      "That's fantastic news. A 15% drop in ApoB is more than I expected",
+      "The plan sounds good. I'm happy with the progress and ready for the next phase"
+    ],
+    "engagement_indicators": {
+      "proactive_communications": 45,
+      "knowledge_seeking_behaviors": 12,
+      "self_monitoring_adoption": "Full integration of wearable data interpretation",
+      "plan_adherence_rate": "85% estimated based on reported consistency"
+    },
+    "trust_building_evidence": [
+      "Accepts data-driven recommendations even when counterintuitive",
+      "Proactively shares schedule constraints and travel plans",
+      "Implements advanced strategies like refeed days and deload weeks",
+      "Demonstrates autonomous decision-making using team-provided frameworks"
+    ]
+  },
+
+  "team_performance_analysis": {
+    "coordination_effectiveness": {
+      "cross_team_handoffs": "Seamless integration across specialties",
+      "information_sharing": "Consistent context across team members",
+      "scheduling_management": "Proactive accommodation of member constraints"
+    },
+    "expertise_demonstration": {
+      "evidence_based_recommendations": "Citations of Peter Attia, DASH diet research",
+      "personalized_adaptations": "Travel plans, time constraint accommodations",
+      "progressive_complexity": "Graduated from basic to advanced protocols"
+    },
+    "member_development": {
+      "education_provided": "Understanding of biomarkers, recovery metrics, periodization",
+      "autonomy_building": "Transition from guided to self-directed health management",
+      "sustainable_habit_formation": "Long-term adherence despite constraints"
+    }
+  },
+
+  "program_evolution_insights": {
+    "successful_adaptations": [
+      "Photo-based food tracking vs detailed logging",
+      "Exercise substitution vs addition for time constraints", 
+      "Travel-specific protocol variations",
+      "Advanced periodization for plateau management"
+    ],
+    "key_turning_points": [
+      "Initial sleep optimization showing quick wins",
+      "ApoB results validation providing motivation", 
+      "Plateau management demonstrating advanced capability",
+      "Autonomous recovery decision-making milestone"
+    ],
+    "sustainability_factors": [
+      "Respect for time constraints",
+      "Flexible travel accommodations", 
+      "Data-driven validation of efforts",
+      "Progressive skill building toward autonomy"
+    ]
+  },
+
+  "predictive_analysis": {
+    "success_probability": "High - 85%+",
+    "risk_factors": [
+      "Continued travel intensity",
+      "Potential work stress escalation",
+      "Long-term motivation maintenance"
+    ],
+    "mitigation_strategies": [
+      "Continued travel protocol refinement",
+      "Advanced stress management integration",
+      "Periodic refresher and goal updating"
+    ],
+    "growth_opportunities": [
+      "Advanced biomarker optimization",
+      "Peer mentoring role development", 
+      "Corporate wellness program integration"
+    ]
+  }
+}
