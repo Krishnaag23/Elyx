@@ -1,4 +1,3 @@
-// app/chat/page.tsx
 "use client";
 
 import { useState, useEffect, useMemo } from "react";
@@ -6,6 +5,7 @@ import { JourneyEvent } from "@/lib/types";
 import { ChatFilterSidebar } from "../components/chat/chatFilterSidebar";
 import { ChatMessageStream } from "../components/chat/chatMessageStream";
 import { ChatInsightPanel } from "../components/chat/chatInsightPanel";
+
 export default function ChatExplorerPage() {
   const [allMessages, setAllMessages] = useState<JourneyEvent[]>([]);
   const [filters, setFilters] = useState({ query: "", sender: "", role: "" });
@@ -48,9 +48,7 @@ export default function ChatExplorerPage() {
     setIsLoadingTrace(true);
     setTraceContext(null);
 
-    // This is where we call our powerful RAG backend
     const response = await fetch("/api/chat", {
-      // Assumes you created the RAG API route
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -59,15 +57,12 @@ export default function ChatExplorerPage() {
     });
     const data = await response.json();
 
-    // Simulate a trace context for now
     setTraceContext([{ sender: data.persona, message: data.response }]);
     setIsLoadingTrace(false);
   };
 
   return (
     <div className="flex h-[calc(100vh-5rem)]">
-      {" "}
-      {/* Full height minus header */}
       <ChatFilterSidebar
         allMessages={allMessages}
         filters={filters}
@@ -81,10 +76,12 @@ export default function ChatExplorerPage() {
           onRequestTrace={handleRequestTrace}
         />
       </div>
+      {/* --- MODIFICATION HERE --- */}
       <ChatInsightPanel
         selectedMessage={selectedMessage}
         traceContext={traceContext}
         isLoading={isLoadingTrace}
+        filteredMessages={filteredMessages} 
       />
     </div>
   );

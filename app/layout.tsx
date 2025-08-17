@@ -47,7 +47,7 @@ export default function RootLayout({
             {/* This div will contain the header and the main page content */}
             <div className="relative flex flex-1 flex-col overflow-y-auto overflow-x-hidden">
               {/* Header sits inside the scrollable content area */}
-              <Header />
+              <Header memberName="Rohan Patel" />
 
               {/* The `main` tag is where your page content will be rendered */}
               <main className="flex-1 p-4 md:p-6 lg:p-8">{children}</main>
