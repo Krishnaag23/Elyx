@@ -24,7 +24,7 @@ export function Header({ memberName }: { memberName: string }) {
             </Button>
           </SheetTrigger>
           <SheetContent side="left" className="flex flex-col">
-            <nav className="grid gap-2 text-lg font-medium">
+            <nav className="grid gap-2 text-lg py-5 pl-2 font-medium">
               <Link
                 href="/dashboard"
                 className="flex items-center gap-2 text-lg font-semibold mb-4"
@@ -32,7 +32,7 @@ export function Header({ memberName }: { memberName: string }) {
                 <div className="h-6 w-6 rounded-lg bg-primary" />
                 <span>Elyx Cockpit</span>
               </Link>
-              {navItems.map((item:any) => (
+              {navItems.map((item: any) => (
                 <Link
                   key={item.label}
                   href={item.href}
@@ -56,11 +56,11 @@ export function Header({ memberName }: { memberName: string }) {
       <div className="flex-1" />
 
       {/* --- Right-side Actions --- */}
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-4 py-5">
         <ThemeToggle />
         <div className="flex items-center gap-2">
           <Button variant="ghost" size="icon" className="h-9 w-9 rounded-full">
-            <CircleUser className="h-5 w-5" />
+            <CircleUser className="h-5 w-5 " />
             <span className="sr-only">User Profile</span>
           </Button>
           <div className="hidden flex-col text-right sm:flex">
