@@ -40,23 +40,13 @@ const ContentWithCitations = ({
           const source = sources.find((s) => s.citation === citationNum);
           if (source) {
             return (
-              <Link
-                key={index}
-                href={`/chat?highlight=${source.eventId}`}
-                legacyBehavior
-              >
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="no-underline ml-1"
+              <Link key={index} href={`/chat?highlight=${source.eventId}`}>
+                <Badge
+                  variant="secondary"
+                  className="cursor-pointer hover:bg-primary hover:text-primary-foreground"
                 >
-                  <Badge
-                    variant="secondary"
-                    className="cursor-pointer hover:bg-primary hover:text-primary-foreground"
-                  >
-                    {citationNum}
-                  </Badge>
-                </a>
+                  {citationNum}
+                </Badge>
               </Link>
             );
           }
