@@ -68,6 +68,8 @@ A conversational AI, powered by our RAG pipeline, that can answer high-level que
 ### Communication Message Generation (Task 1)
 To simulate an 8-month conversation while avoiding *Context Window Limitation* and *Hallucination*, we broke the generation process into month-long chunks. We preserved a state summary after each month, which was fed into the prompt for the next month, ensuring continuity. This role-based, zero-shot prompting approach allowed us to generate a diverse and realistic conversation log (`journey_log.json`) and a high-level summary (`episode.json`).
 
+Access the [prompt](./docs/comm-generator-prompt.md) and the [messages](./lib/journey/journey.txt)
+
 ### The "Insight & Evidence" Architecture (Task 2)
 Our core technical insight was to treat the two generated files as distinct but connected layers of information:
 -   `journey_log.json`: The **Ground Truth**. This is the raw, immutable log of every interaction—the evidence.
