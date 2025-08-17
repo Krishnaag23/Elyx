@@ -1,10 +1,13 @@
-# Elyx Hackathon (Sloth)
+# [Elyx Cockpit](https://elyx.onrender.com/)
 
 ![Landing Page](./docs/Images/Landing%20Page.png)
 
 This repository contains our submission for the Pclub IITK x Elyx Hackathon. Elyx Cockpit is a decision-intelligence platform designed to visualize and analyze a member's complex, year-long health journey, providing not just insights, but auditable, evidence-based traceability for every decision made.
 
 This readme documents the architectural choices, technical implementations, and the core philosophy behind our approach.
+
+Live at [https://elyx.onrender.com/](https://elyx.onrender.com/). 
+As the deployment is made with Free tier of render, the free instance spins down sometimes due to inactivity. Wait for a while for it to spin back up and see it in action. 
 
 ## Our Core Philosophy
 
