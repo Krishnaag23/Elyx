@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import React, { useState, useEffect, useMemo } from "react";
+import { useSearchParams } from "next/navigation";
 import { JourneyEvent } from "@/lib/types";
 import { ChatFilterSidebar } from "../components/chat/chatFilterSidebar";
 import { ChatMessageStream } from "../components/chat/chatMessageStream";
@@ -14,6 +15,10 @@ export default function ChatExplorerPage() {
   );
   const [traceContext, setTraceContext] = useState<any[] | null>(null);
   const [isLoadingTrace, setIsLoadingTrace] = useState(false);
+
+  // --- NEW LOGIC FOR HIGHLIGHTING ---
+  const searchParams = useSearchParams();
+  const highlightedEventId = searchParams.get("highlight");
 
   useEffect(() => {
     const fetchData = async () => {
@@ -41,6 +46,21 @@ export default function ChatExplorerPage() {
       })
       .sort((a, b) => a._dt!.getTime() - b._dt!.getTime());
   }, [allMessages, filters]);
+
+  useEffect(() => {
+    if (highlightedEventId && filteredMessages.length > 0) {
+      const element = document.getElementById(highlightedEventId);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth", block: "center" });
+
+        element.classList.add("highlight-animation");
+
+        setTimeout(() => {
+          element.classList.remove("highlight-animation");
+        }, 3000); // Duration should match the animation
+      }
+    }
+  }, [highlightedEventId, filteredMessages]);
 
   const handleRequestTrace = async (message: JourneyEvent) => {
     if (!message) return;
@@ -76,12 +96,11 @@ export default function ChatExplorerPage() {
           onRequestTrace={handleRequestTrace}
         />
       </div>
-      {/* --- MODIFICATION HERE --- */}
       <ChatInsightPanel
         selectedMessage={selectedMessage}
         traceContext={traceContext}
         isLoading={isLoadingTrace}
-        filteredMessages={filteredMessages} 
+        filteredMessages={filteredMessages}
       />
     </div>
   );

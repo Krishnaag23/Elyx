@@ -2,65 +2,71 @@
 
 import { useState } from "react";
 import { ChatInput } from "../components/chat/chatInput";
-import { ChatMessages } from "../components/chat/chatMessages";
-import { CornerDownLeft } from "lucide-react";
+import { AIChatMessages } from "../components/ai/aiChatMessages";
+import { Button } from "@/components/ui/button";
+import { Sparkles } from "lucide-react";
 
-// Define the structure for a single message in our chat state
 export interface Message {
   id: string;
   content: string;
-  role: 'user' | 'assistant';
-  persona?: string; // To store the name of the AI persona
+  role: "user" | "assistant";
+  persona?: string;
+  sources?: { citation: number; eventId: string }[];
 }
+
+// ---  Suggested Prompts ---
+const suggestedPrompts = [
+  "Summarize the key outcomes of the journey.",
+  "What were the main friction points and their resolutions?",
+  "Explain the rationale for introducing Zone 2 cardio.",
+  "How was the member's travel schedule accommodated?",
+];
 
 export default function ChatPage() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [isLoading, setIsLoading] = useState(false);
 
   const handleSendMessage = async (userInput: string) => {
-    if (!userInput.trim()) return;
+    if (!userInput.trim() || isLoading) return; // Prevent multiple sends
 
-    // Add user message to the state immediately for a responsive feel
     const userMessage: Message = {
       id: crypto.randomUUID(),
       content: userInput,
-      role: 'user',
+      role: "user",
     };
-    setMessages(prev => [...prev, userMessage]);
+    setMessages((prev) => [...prev, userMessage]);
     setIsLoading(true);
 
     try {
-      // Call our RAG backend API
-      const response = await fetch('/api/rag-chat', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+      const response = await fetch("/api/rag-chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ query: userInput }),
       });
-
-      if (!response.ok) {
-        throw new Error('API response was not ok.');
-      }
-
+      if (!response.ok) throw new Error("API response was not ok.");
       const data = await response.json();
 
       const assistantMessage: Message = {
         id: crypto.randomUUID(),
         content: data.response,
-        role: 'assistant',
-        persona: data.persona, // Store the persona from the API response
+        role: "assistant",
+        persona: data.persona,
+        sources: data.sources,
       };
 
-      setMessages(prev => [...prev, assistantMessage]);
-
+      setMessages((prev) => [...prev, assistantMessage]);
     } catch (error) {
       console.error("Failed to get a response from the RAG API:", error);
+
       const errorMessage: Message = {
         id: crypto.randomUUID(),
-        content: "Sorry, I'm having trouble connecting to my knowledge base right now. Please try again later.",
-        role: 'assistant',
-        persona: 'System',
+        content:
+          "Sorry, I'm having trouble connecting. Please try again later.",
+        role: "assistant",
+        persona: "System",
       };
-      setMessages(prev => [...prev, errorMessage]);
+
+      setMessages((prev) => [...prev, errorMessage]);
     } finally {
       setIsLoading(false);
     }
@@ -71,16 +77,30 @@ export default function ChatPage() {
       <div className="flex-1 overflow-y-auto p-4">
         {messages.length === 0 ? (
           <div className="flex h-full flex-col items-center justify-center text-center">
-            <div className="rounded-full bg-muted p-3">
-              <CornerDownLeft className="h-6 w-6 text-muted-foreground" />
+            <div className="rounded-full bg-primary/10 p-3 text-primary">
+              <Sparkles className="h-8 w-8" />
             </div>
-            <h2 className="mt-4 text-xl font-semibold">Ask about Rohan's Journey</h2>
-            <p className="max-w-md text-muted-foreground">
-              You can ask questions like "Why was Zone 2 cardio introduced?" or "What was the outcome of the 6-month check-in?". The relevant AI persona will answer.
+            <h2 className="mt-4 text-2xl font-semibold">AI Co-pilot</h2>
+            <p className="mt-2 max-w-md text-muted-foreground">
+              Ask high-level questions about Rohan's journey. Start with a
+              suggestion or type your own query below.
             </p>
+            {/* --- NEW: Suggested Prompts Section --- */}
+            <div className="mt-6 flex flex-wrap justify-center gap-3">
+              {suggestedPrompts.map((prompt, i) => (
+                <Button
+                  key={i}
+                  variant="outline"
+                  size="sm"
+                  onClick={() => handleSendMessage(prompt)}
+                >
+                  {prompt}
+                </Button>
+              ))}
+            </div>
           </div>
         ) : (
-          <ChatMessages messages={messages} isLoading={isLoading} />
+          <AIChatMessages messages={messages} isLoading={isLoading} />
         )}
       </div>
       <div className="border-t bg-background p-4">

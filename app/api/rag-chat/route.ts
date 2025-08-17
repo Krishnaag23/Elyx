@@ -1,12 +1,10 @@
-// app/api/rag-chat/route.ts
 import { NextResponse } from "next/server";
 import { searchVectorStore } from "@/lib/rag/vectorStore";
-import { createRagPrompt } from "@/lib/llm/prompts";
 import { generateGoogleChatResponse } from "@/lib/llm/google";
+import { Document } from "@langchain/core/documents";
 
-// Map sender names to their persona keys in the prompts file
 const SENDER_TO_PERSONA_MAP: { [key: string]: string } = {
-  Rohan: "System", // Rohan doesn't answer himself
+  Rohan: "System",
   Ruby: "Ruby",
   "Dr. Warren": "Dr. Warren",
   Advik: "Advik",
@@ -23,29 +21,81 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: "Query is required" }, { status: 400 });
     }
 
-    const results = await searchVectorStore(query, 5);
+    const results: Document[] = await searchVectorStore(query, 5);
 
-    const context = results.map((r) => r.pageContent).join("\n\n");
+    let citationCounter = 1;
+    const sourcesForResponse: { citation: number; eventId: string }[] = [];
+    
+    const contextWithCitations = results
+      .map((doc) => {
+        if (doc.metadata.source === "journey_log.json" && doc.metadata.eventId) {
+          sourcesForResponse.push({
+            citation: citationCounter,
+            eventId: doc.metadata.eventId,
+          });
+          return `[Source ${citationCounter++}]: ${doc.pageContent}`;
+        }
+        return doc.pageContent;
+      })
+      .join("\n\n---\n\n");
 
-    let personaName = "Neel"; // Default to the lead for a safe, strategic answer
+    let personaName = "Neel";
     if (results.length > 0 && results[0].metadata.sender) {
       const topSender = results[0].metadata.sender as string;
       personaName = SENDER_TO_PERSONA_MAP[topSender] || "Neel";
     }
-    console.log(`Recieved context from RAG: ${context} \n `);
+    console.log(`Citation Contexts: ${contextWithCitations}`)
+    const prompt = `You are ${personaName}, an expert on Rohan's health journey. Your task is to answer the user's question based *only* on the provided context.
+    
+    **CRITICAL INSTRUCTION:** When you use information from a piece of context that starts with a [Source X] marker, you MUST cite it by placing the marker at the end of the sentence where the information was used. For example: "The member's ApoB dropped by 15% [Source 3]." Do NOT make up information. If the context does not provide an answer, say so. Important: DO THIS ONLY IF using context that starts with [Source X] marker where X is number. Do not do this with other tags!
 
-    const prompt = createRagPrompt(personaName, context, query);
+    CONTEXT:
+    ---
+    ${contextWithCitations}
+    ---
+    
+    USER QUESTION:
+    ${query}
+    
+    ANSWER:`;
 
-    console.log(`Created Prompt: ${prompt} \n`)
+    const rawAnswer = await generateGoogleChatResponse(prompt);
 
-    const answer = await generateGoogleChatResponse(prompt);
+    console.log(`Answer Generated from AI: ${rawAnswer}`);
 
-    return NextResponse.json({ response: answer, persona: personaName });
+    let finalAnswer = rawAnswer;
+    const finalSources: { citation: number; eventId: string }[] = [];
+
+    const citationRegex = /\[Source (\d+)\]/g;
+    const usedCitations = new Map<number, number>();
+    let newCitationCounter = 1;
+
+    finalAnswer = rawAnswer.replace(citationRegex, (match, sourceNumStr) => {
+      const sourceNum = parseInt(sourceNumStr, 10);
+      const source = sourcesForResponse.find(s => s.citation === sourceNum);
+      
+      if (source) {
+        let finalCitationNum;
+        if (usedCitations.has(sourceNum)) {
+          finalCitationNum = usedCitations.get(sourceNum)!;
+        } else {
+          finalCitationNum = newCitationCounter++;
+          usedCitations.set(sourceNum, finalCitationNum);
+          finalSources.push({ citation: finalCitationNum, eventId: source.eventId });
+        }
+        return `[${finalCitationNum}]`;
+      }
+      return ""; 
+    });
+    
+    return NextResponse.json({
+      response: finalAnswer,
+      persona: personaName,
+      sources: finalSources,
+    });
+
   } catch (error) {
     console.error("RAG Chat API Error:", error);
-    return NextResponse.json(
-      { error: "Internal Server Error" },
-      { status: 500 }
-    );
+    return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
   }
 }
