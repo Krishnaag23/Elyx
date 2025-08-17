@@ -1,4 +1,4 @@
-# Elyx Hackathon (Sloth)
+# [Elyx Cockpit](https://elyx.onrender.com/)
 
 ![Landing Page](./docs/Images/Landing%20Page.png)
 
@@ -6,9 +6,14 @@ This repository contains our submission for the Pclub IITK x Elyx Hackathon. Ely
 
 This readme documents the architectural choices, technical implementations, and the core philosophy behind our approach.
 
+Live at [https://elyx.onrender.com/](https://elyx.onrender.com/). 
+As the deployment is made with Free tier of render, the free instance spins down sometimes due to inactivity. Wait for a while for it to spin back up and see it in action. 
+
 ## Our Core Philosophy
 
 From the start, our goal was to build something scalable, useful, and insightful that goes a little bit beyond just the problem statement. We didn't just want to display data; we wanted to tell a story and make every insight accountable.
+
+We have created a dynamic system. You can put your messages in the `lib/journey/journey.txt` file and run the `jouney.js` script to parse it into a JSON using regex and then place that JSON in `public/jouney_log.json` and it will be available to the app. If you generate an analysis of it like `public/episode.json` and replace it there then that would also reflect.
 
 ### Narrative-Driven Visualization
 We believe that a member's journey is a story, not just a collection of data points. Every interface, from the overview dashboard to the custom-built journey map, is designed to present information in a narrative context. We use dynamic animations, progressive disclosure, and logical flows to guide the user through the member's progress, challenges, and successes over time.
@@ -67,6 +72,8 @@ A conversational AI, powered by our RAG pipeline, that can answer high-level que
 
 ### Communication Message Generation (Task 1)
 To simulate an 8-month conversation while avoiding *Context Window Limitation* and *Hallucination*, we broke the generation process into month-long chunks. We preserved a state summary after each month, which was fed into the prompt for the next month, ensuring continuity. This role-based, zero-shot prompting approach allowed us to generate a diverse and realistic conversation log (`journey_log.json`) and a high-level summary (`episode.json`).
+
+Access the [prompt](./docs/comm-generator-prompt.md) and the [messages](./lib/journey/journey.txt)
 
 ### The "Insight & Evidence" Architecture (Task 2)
 Our core technical insight was to treat the two generated files as distinct but connected layers of information:
