@@ -112,6 +112,24 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+@layer utilities {
+  .highlight-animation {
+    @apply transition-all duration-1000;
+    animation: highlight-fade 3s ease-out;
+  }
+
+  @keyframes highlight-fade {
+    0% {
+      background-color: hsl(var(--primary) / 0.3);
+      box-shadow: 0 0 12px hsl(var(--primary) / 0.5);
+    }
+    100% {
+      background-color: transparent;
+      box-shadow: 0 0 0px transparent;
+    }
+  }
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

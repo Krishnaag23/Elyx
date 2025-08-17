@@ -25,9 +25,10 @@ export function ChatMessageStream({
   let lastDate: string | null = null;
 
   return (
-    <div className="p-4 space-y-4">
+    <div className="p-4 space-y-2">
+      {" "}
+      {/* Reduce spacing to make bubbles closer */}
       {messages.map((message) => {
-        // --- NEW LOGIC FOR DATE SEPARATORS ---
         const messageDate = message._dt!.toLocaleDateString(undefined, {
           year: "numeric",
           month: "long",
@@ -46,11 +47,14 @@ export function ChatMessageStream({
                 </Badge>
               </div>
             )}
-            <ChatMessageBubble
-              message={message}
-              onSelect={() => onSelectMessage(message)}
-              onTrace={() => onRequestTrace(message)}
-            />
+            {/* --- MODIFIED: Add a wrapping div with the eventId as its DOM id --- */}
+            <div id={message.eventId} className="rounded-lg">
+              <ChatMessageBubble
+                message={message}
+                onSelect={() => onSelectMessage(message)}
+                onTrace={() => onRequestTrace(message)}
+              />
+            </div>
           </React.Fragment>
         );
       })}
