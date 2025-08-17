@@ -90,7 +90,7 @@ First, install all dependencies:
 pnpm install
 ```
 
-Create an `.env.local` file from `.env.example`:
+Create an `.env` file from `.env.example`:
 
 ```bash
 GEMINI_API_KEY=your_google_api_key
