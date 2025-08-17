@@ -10,6 +10,8 @@ This readme documents the architectural choices, technical implementations, and 
 
 From the start, our goal was to build something scalable, useful, and insightful that goes a little bit beyond just the problem statement. We didn't just want to display data; we wanted to tell a story and make every insight accountable.
 
+We have created a dynamic system. You can put your messages in the `lib/journey/journey.txt` file and run the `jouney.js` script to parse it into a JSON using regex and then place that JSON in `public/jouney_log.json` and it will be available to the app. If you generate an analysis of it like `public/episode.json` and replace it there then that would also reflect.
+
 ### Narrative-Driven Visualization
 We believe that a member's journey is a story, not just a collection of data points. Every interface, from the overview dashboard to the custom-built journey map, is designed to present information in a narrative context. We use dynamic animations, progressive disclosure, and logical flows to guide the user through the member's progress, challenges, and successes over time.
 
