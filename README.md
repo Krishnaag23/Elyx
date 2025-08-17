@@ -88,6 +88,8 @@ First, install all dependencies:
 
 ```bash
 pnpm install
+or
+npm install
 ```
 
 Create an `.env` file from `.env.example`:
@@ -99,7 +101,7 @@ GEMINI_API_KEY=your_google_api_key
 Then, run the development server:
 
 ```bash
-pnpm dev
+npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
