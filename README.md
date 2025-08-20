@@ -87,8 +87,6 @@ Our RAG pipeline indexes **both** files into a `MemoryVectorStore`. This allows 
 First, install all dependencies:
 
 ```bash
-pnpm install
-or
 npm install
 ```
 
